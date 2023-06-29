@@ -31,7 +31,7 @@ const NavBar = () => {
         </nav>
         
         <nav className='flex items-center justify-center flex-wrap mt-1'>
-            <motion.a href = "/" target = {"_blank"}
+            <motion.a href = "https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target = {"_blank"}
             whileHover={{y:-3}}
             whileTap={{scale : 0.9}}
             className='w-6 mr-4'
@@ -40,7 +40,7 @@ const NavBar = () => {
                 
             </motion.a>
 
-            <motion.a href = "/" target = {"_blank"}
+            <motion.a href = "https://github.com/Arya-Deep-31" target = {"_blank"}
             whileHover={{y:-3}}
             whileTap={{scale : 0.9}}
             className='w-7 mr-4'>
@@ -48,21 +48,21 @@ const NavBar = () => {
                 
             </motion.a>
 
-            <motion.a href = "/" target = {"_blank"}
+            <motion.a href = "https://twitter.com/AryadeepGogoi" target = {"_blank"}
             whileHover={{y:-3}}
             whileTap={{scale : 0.9}}
             className='w-7 mr-4'>
                 <TwitterIcon/>
             </motion.a>
 
-            <motion.a href = "/" target = {"_blank"}
+            <motion.a href = "https://www.instagram.com/arya__deep__31/" target = {"_blank"}
                         whileHover={{y:-3}}
                         whileTap={{scale : 0.9}}
                         className='w-6 mr-4'>
                 <InstagramIcon/>
             </motion.a>
 
-            <motion.a href = "/" target = {"_blank"}
+            <motion.a href = "https://facebook.com/profile.php?id=100076109862434" target = {"_blank"}
                         whileHover={{y:-3}}
                         whileTap={{scale : 0.9}}
                         className='w-6 mr-4'>
