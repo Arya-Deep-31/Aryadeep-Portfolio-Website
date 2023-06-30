@@ -21,7 +21,7 @@ const CustomLink = ({href , title , className=""}) => {
 
 const NavBar = () => {
   return (
-    <header className='w-full px-32 py-6 font-semibold flex items-center text-lg justify-between'>
+    <header className='w-full px-32 py-5 font-semibold flex items-center text-lg justify-between'>
         
         <nav>
             <CustomLink href="/" title="Home" className="mr-3" />

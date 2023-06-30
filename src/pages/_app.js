@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import { Sura } from "next/font/google"
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
+import Footer from '@/components/Footer'
 
 const sura = Sura({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function App({ Component, pageProps }) {
       <main className={`${sura.variable} font-sur bg-light w-full min-h-screen`}>
         <NavBar/>
         <Component {...pageProps} />
+        <Footer/>
       </main>
     </>
   )
