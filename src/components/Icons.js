@@ -1,5 +1,20 @@
 import * as React from "react";
 
+
+export const HtmlIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    {...rest}
+    className={`w-full h-8 ${className}`}
+  >
+    <path d="M4.153 2h15.694l-1.66 18.743-7.374 2.057-7.372-2.057L4.153 2zm11.433 2.693H8.41l.32 3.62h6.535l-.524 5.89-3.515.979v.002l-3.532-.985-.227-2.563H5.14l.477 5.37 6.568 1.82.01-.003v-.005l6.59-1.813.667-7.502h-3.867l-.246-2.772z" />
+  </svg>
+);
+
+
+
 export const GithubIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

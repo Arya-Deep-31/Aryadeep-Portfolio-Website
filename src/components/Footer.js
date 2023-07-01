@@ -61,10 +61,10 @@ const Footer = () => {
 
                 <div className='p-4 text-light mr-10'>
                     <ul>
-                        <div className='text-light font-bold pb-4 mr-10'>
-                            <li className='text-primary text-md pb-2 '> About  </li>
-                            <li className='text-primary text-md pb-2 '> Projects </li>
-                            <li className='text-primary text-md pb-2 '> Conatct </li>
+                        <div className='text-light font-bold pb-4 mr-10 grid '>
+                            <a href='/about' className='text-primary text-md pb-2 '> About  </a>
+                            <a href='/projects' className='text-primary text-md pb-2 '> Projects </a>
+                            <a href='/contact' className='text-primary text-md pb-2 '> Conatct </a>
 
                         </div>
                     </ul>
