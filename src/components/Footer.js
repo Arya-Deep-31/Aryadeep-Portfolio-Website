@@ -51,7 +51,7 @@ const Footer = () => {
 
                     </ul>
 
-                    <div className='text-light text-bold  mt-1 mr-3'>
+                    <div className='text-light text-bold  mt-1 mr-'>
                         Contact <span className='text-light'> me at </span>
                         <a className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
                         </a> 
@@ -59,9 +59,9 @@ const Footer = () => {
 
                 </div>
 
-                <div className='p-4 text-light mr-10'>
+                <div className='pt-6 text-light mr-20'>
                     <ul>
-                        <div className='text-light font-bold pb-4 mr-10 grid '>
+                        <div className='text-light font-bold pb-2 mr-10 grid '>
                             <a href='/about' className='text-primary text-md pb-2 '> About  </a>
                             <a href='/projects' className='text-primary text-md pb-2 '> Projects </a>
                             <a href='/contact' className='text-primary text-md pb-2 '> Conatct </a>
