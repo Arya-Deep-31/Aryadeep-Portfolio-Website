@@ -15,7 +15,7 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
 
 
     return (
-        <li ref={ref} className='my-8  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
 
             <TrackIcon reference={ref} />
             <div>
@@ -33,7 +33,7 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
     )
 }
 
-const Experience = () => {
+const Experience2 = () => {
 
     const ref = useRef(null);
 
@@ -49,11 +49,8 @@ const Experience = () => {
 
 
     return (
-        <div className='mb-24'>
-            <Layout className=''>
-                <AnimatedText text="Growing through " className='mb-2 ' />
-                <AnimatedText text="My Experience" className=' !text-3xl font-bold text-dark/70' />
-            </Layout>
+        <div className='mb-20'>
+        
 
 
 
@@ -61,51 +58,14 @@ const Experience = () => {
 
                 <motion.div 
                 style={{ scaleY: scrollYProgress }} 
-                className='absolute left-9  top-1 w-[4px] h-full bg-dark origin-top'/>
+                className='absolute left-9 top-4 w-[4px] h-full bg-dark origin-top'/>
 
 
 
                 <ul className='w-full flex flex-col items-start justify-between ml-10'>
-                    <Details
-
-                        position="General Secretary" society="Electronics And Communication Society"
-                        companyLink=""
-                        time="June 2023-Present" address="Silchar ,Assam, India"
-                        work="Currently leading the team of ECS with other respective domain heads . Includes "
-
-                    />
+                    
 
                     <Details
-
-                        position="Junior Media And Graphics Designer" society="Electronics And Communication Society"
-                        companyLink=""
-                        time="August 2022-June-2023" address="Silchar ,Assam, India"
-                        work="okokokokokkkoko okokkkokokokoko okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko okokkkokokokokookokkkokokokokookokkkokokokoko v okokkkokokokokookokkkokokokokookokkkokokokokookokkkokokokoko okokkkokokokoko  kokokok"
-
-
-                    />
-
-                    <Details
-
-                        position="Moderator" society="SYMPHONITS | Music Club Of NITS"
-                        companyLink=""
-                        time="March 2023 - Present" address="Silchar ,Assam, India"
-                        work="okokokokokkkoko okokkkokokokoko okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko okokkkokokokokookokkkokokokokookokkkokokokoko v okokkkokokokokookokkkokokokokookokkkokokokokookokkkokokokoko okokkkokokokoko  kokokok"
-
-
-                    />
-
-                    <Details
-
-                        position="Core Member" society="SYMPHONITS | Music Club Of NITS"
-                        companyLink=""
-                        time="June 2023-Present" address="Silchar ,Assam, India"
-                        work="okokokokokkkoko okokkkokokokoko okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko okokkkokokokokookokkkokokokokookokkkokokokoko v okokkkokokokokookokkkokokokokookokkkokokokokookokkkokokokoko okokkkokokokoko  kokokok"
-
-
-                    />
-
-                    {/* <Details
 
                         position="UI/UX Design Member" society="Google Developer Students Club"
                         companyLink=""
@@ -150,7 +110,7 @@ const Experience = () => {
                         work="okokokokokkkoko okokkkokokokoko okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko o  okokkkokokokoko okokkkokokokoko okokkkokokokokookokkkokokokokookokkkokokokoko v okokkkokokokokookokkkokokokokookokkkokokokokookokkkokokokoko okokkkokokokoko  kokokok"
 
 
-                    /> */}
+                    />
                 </ul>
 
 
@@ -169,4 +129,4 @@ const Experience = () => {
     )
 }
 
-export default Experience
+export default Experience2

@@ -7,6 +7,8 @@ import aboutPic from "../../public/images/profile/developer-pic-2.jpg"
 import Skills from '@/components/Skills'
 import {motion} from "framer-motion" ;
 import Experience from '@/components/Experience'
+import Experience2 from '@/components/Experience2'
+import Education from '@/components/Education'
 
 
 
@@ -26,7 +28,10 @@ const about = () => {
 
                 <main className='flex w-full flex-col items-center justify-center '>
                     <Layout className=''>
-                        <AnimatedText text="Passion To Potential " className='mb-10' />
+                        
+                        <AnimatedText text="Passion To Potential " />
+                        <AnimatedText text=" About Me" className=' !text-3xl font-bold text-dark/70' />
+
 
 
 
@@ -54,6 +59,8 @@ const about = () => {
 
                     <Skills />
                     <Experience/>
+                    <Experience2/>
+                    <Education/>
                 </main>
             </motion.div>
 

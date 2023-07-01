@@ -20,7 +20,7 @@ const Skills = () => {
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
+                                90%
                             </p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
+                            90%
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Skills = () => {
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
+                                80%
                             </p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Skills = () => {
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
+                                90%
                             </p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const Skills = () => {
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
+                                80%
                             </p>
                         </div>
                     </div>
