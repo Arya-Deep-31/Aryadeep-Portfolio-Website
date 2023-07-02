@@ -9,6 +9,7 @@ import {motion} from "framer-motion" ;
 import Experience from '@/components/Experience'
 import Experience2 from '@/components/Experience2'
 import Education from '@/components/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 
@@ -23,10 +24,11 @@ const about = () => {
                 </title>
                 <meta name=" description" content="about me"></meta>
             </Head>
+            <TransitionEffect/>
 
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
 
-                <main className='flex w-full flex-col items-center justify-center '>
+                <main className='flex w-full flex-col items-center justify-center mb-20'>
                     <Layout className=''>
                         
                         <AnimatedText text="Passion To Potential " />

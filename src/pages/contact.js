@@ -18,6 +18,7 @@ import {
 import { useState } from "react";
 import { sendContactForm } from "../lib/api";
 import Map from "../components/map"
+import TransitionEffect from '@/components/TransitionEffect';
 
 
 const initValues = { name: "", email: "", subject: "", message: "" };
@@ -83,6 +84,7 @@ const contact = () => {
                 </title>
                 <meta name=" description" content="about my contact"></meta>
             </Head>
+            <TransitionEffect/>
 
             <main className='w-full'>
                 <motion.div className='' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>

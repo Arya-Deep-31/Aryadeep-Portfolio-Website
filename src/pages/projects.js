@@ -7,6 +7,7 @@ import Link from 'next/link'
 import project1 from "../../public/images/projects/project1.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
+import TransitionEffect from '@/components/TransitionEffect'
 
 
 
@@ -73,6 +74,7 @@ const projects = () => {
                 </title>
                 <meta name=" description" content="about my projects"></meta>
             </Head>
+            <TransitionEffect/>
 
             <main className='w-full mb-20 flex flex-col items-center justify-center'>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>

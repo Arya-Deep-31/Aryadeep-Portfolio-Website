@@ -19,7 +19,7 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
 
             <TrackIcon reference={ref} />
             <div>
-                <h3 className='dark:text-light  font-bold text-2xl text-dark mb-1'> {position}&nbsp; <a href={societyLink} target='_blank' className=' dark:text-light/80 text-primaryDark/90'> @{society} </a> </h3>
+                <h3 className='dark:text-light  font-bold text-2xl text-dark mb-1'> {position}&nbsp; <a href={societyLink} target='_blank' className=' dark:text-primary text-primaryDark/90'> @{society} </a> </h3>
                 <span className='font-bold text-dark/70 dark:text-light/60'>
                     {time} | {address}
                     <p className='w-full mt-6 font-medium text-dark dark:text-light'>
@@ -61,7 +61,7 @@ const Experience = () => {
 
                 <motion.div 
                 style={{ scaleY: scrollYProgress }} 
-                className='dark:bg-light absolute left-9  top-1 w-[4px] h-full bg-dark origin-top'/>
+                className='dark:bg-light absolute left-9  top-10 w-[4px] h-full bg-dark origin-top'/>
 
 
 
