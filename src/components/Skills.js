@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import { motion } from "framer-motion";
-import { HtmlIcon , LinkedInIcon ,CssIcon ,ScssIcon, FigmaIcon, ReactIcon } from './Icons';
+import { HtmlIcon , LinkedInIcon ,CssIcon ,ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon } from './Icons';
 
 
 
@@ -62,7 +62,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <BootstrapIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -95,7 +95,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <VscodeIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -106,7 +106,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <PythonIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -117,7 +117,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <C2Icon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -128,7 +128,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <JavaIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -139,7 +139,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <GitIcon1 /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
@@ -151,8 +151,8 @@ const Skills = () => {
 
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
-                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <IllustratorIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
                                 100%
@@ -161,20 +161,11 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
-                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
-                        <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                100%
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
-                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <IllustratorIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>
                                 100%
@@ -185,7 +176,66 @@ const Skills = () => {
 
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <LinkedInIcon /> </motion.div>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <IllustratorIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='text-2xl font-bold text-light opacity-100'>
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <IllustratorIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='text-2xl font-bold text-light opacity-100'>
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <GitIcon2 /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='text-2xl font-bold text-light opacity-100'>
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <IndesignIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='text-2xl font-bold text-light opacity-100'>
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <AfterEffectsIcon /> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='text-2xl font-bold text-light opacity-100'>
+                                100%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <IllustratorIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>

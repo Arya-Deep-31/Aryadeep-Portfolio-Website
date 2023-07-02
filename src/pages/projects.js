@@ -14,21 +14,21 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 const ProjectDetails = ({ title, type, summary, img, link, github }) => {
     return (
-        <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8' >
+        <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary' >
             <Link className='w-1/2 overflow-hidden rounded-lg ' href={link} target='_blank'>
                 <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image src={img} alt={title} className='w-full h-auto ' /></motion.div>
 
 
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-12'>
-                <span className='text-primaryDark/80 text-2xl font-bold'>{type}</span>
+                <span className='text-primaryDark/80 text-2xl font-bold dark:text-light/70'>{type}</span>
 
-                <h2 className='my-2 w-full  text-left text-4xl text-dark/80 font-bold' >{title}</h2>
+                <h2 className='my-2 w-full  text-left text-4xl text-dark/80 font-bold dark:text-light' >{title}</h2>
 
-                <p className='my-8 w-[90%] font-dark'>{summary}</p>
+                <p className='my-8 w-[90%] font-dark dark:text-light'>{summary}</p>
                 <div className='flex items-center'>
                     <Link className='mr-4 ' href={github} target='_blank'> <GithubIcon /></Link>
-                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg' href={link} target='_blank'> Explore Project </Link>
+                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white' href={link} target='_blank'> Explore Project </Link>
                 </div>
             </div>
         </article>
@@ -39,16 +39,16 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
     return (
-        <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8'>
-             <div className='w-1/2 flex flex-col items-start justify-between pl-8'>
-                <span className='text-primaryDark/80 text-2xl font-bold'>{type}</span>
+        <div className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary'>
+             <div className='w-1/2 flex flex-col items-start justify-between pl-8 '>
+                <span className='text-primaryDark/80 text-2xl font-bold  dark:text-light/70'>{type}</span>
 
-                <h2 className='my-2 w-full  text-left text-4xl text-dark/80 font-bold' >{title}</h2>
+                <h2 className='my-2 w-full  text-left text-4xl text-dark/80 font-bold  dark:text-light'  >{title}</h2>
 
-                <p className='my-8 w-[90%] font-dark'>{summary}</p>
+                <p className='my-8 w-[90%] font-dark dark:text-light'>{summary}</p>
                 <div className='flex items-center'>
                     <Link className='mr-4 ' href={github} target='_blank'> <GithubIcon /></Link>
-                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg' href={link} target='_blank'> Explore Project </Link>
+                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white' href={link} target='_blank'> Explore Project </Link>
                 </div>
             </div>
             <Link className='w-1/2 overflow-hidden rounded-lg ' href={link} target='_blank'>
@@ -57,7 +57,7 @@ const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
 
             </Link>
            
-        </article>
+        </div>
 
     )
 }
