@@ -14,7 +14,7 @@ const Skills = () => {
                 <AnimatedText text=" My Skills" className=' !text-3xl font-bold text-dark/70' />
             </Layout>
 
-            <div className='grid grid-cols-4 gap-5 ml-16 mr-16'>
+            <div className='grid grid-cols-4 gap-5 ml-16 mr-16 mb-14'>
                 <div className='group relative flex cursor-pointer'>
                     <motion.div className=' rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <HtmlIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>

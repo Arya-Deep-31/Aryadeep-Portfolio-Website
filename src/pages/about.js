@@ -30,7 +30,7 @@ const about = () => {
                     <Layout className=''>
                         
                         <AnimatedText text="Passion To Potential " />
-                        <AnimatedText text=" About Me" className=' !text-3xl font-bold text-dark/70' />
+                        <AnimatedText text=" About Me" className=' !text-3xl  text-dark/70 mb-14 ' />
 
 
 
@@ -38,7 +38,6 @@ const about = () => {
                         <div className='grid w-full grid-cols-7 gap-20'>
 
                             <div className='col-span-4 flex flex-col items-start justify-start'>
-                                <h2 className='mb-8 text-2xl font-bold text-dark/70'> About Me</h2>
 
                                 <p className='pb-4'> I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad
                                 </p>

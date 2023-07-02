@@ -2,8 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
 import {useRouter} from 'next/router'
-import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from './Icons'
+import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon } from './Icons'
 import {motion} from "framer-motion";
+import useThemeSwitcher from './hooks/useThemeSwitcher'
 
 
 
@@ -13,15 +14,19 @@ const CustomLink = ({href , title , className=""}) => {
     return(
         <Link href={href} className={`${className} relative group`}>
             {title}
-            <span className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
+            <span className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300  dark:bg-primary
             ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
         </Link>
     )
 }
 
 const NavBar = () => {
+
+
+    const [mode , setMode] = useThemeSwitcher();
+    
   return (
-    <header className='w-full px-32 py-5 font-semibold flex items-center text-lg justify-between'>
+    <header className='w-full px-32 py-5 font-semibold flex items-center text-lg justify-between dark:text-light'>
         
         <nav>
             <CustomLink href="/" title="Home" className="mr-3" />
@@ -68,6 +73,14 @@ const NavBar = () => {
                         className='w-6 mr-4'>
                 <FacebookIcon/>
             </motion.a>
+
+            <button onClick={()=>setMode(mode==="light" ? "dark" : "light")}className='flex items-center justify-center rounded-full p-1' >
+                {
+                    mode === "dark" ? <SunIcon className={'fill-dark'} />
+                    : <MoonIcon className={"fill-dakr"}/>
+                }
+
+            </button>
         </nav>
 
         <div className='absolute left-[50%] top-4 translate-x-[-50%]'>

@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 const Footer = () => {
     return (
         <>
-            <footer className='bg-dark h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-5'>
+        <div className='w-full h-1 bg-primary/80'>
+
+        </div>
+            <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-5'>
                 <div className='p-5'>
                     <ul>
                         <div className='text-light font-bold pb-4 ml-12'>
@@ -93,6 +96,10 @@ const Footer = () => {
                     </ul>
                 </div>
             </footer>
+
+            <div className='w-full h-1 bg-dark/90 dark:bg-primary/80'>
+
+        </div>
 
             <div className='flex-flex-col justify-center items-center text-center p-2 bg-darker text-light'>
                 <h1>_ Aryadeep's Portfolio website _</h1>All rights reserved | 2023

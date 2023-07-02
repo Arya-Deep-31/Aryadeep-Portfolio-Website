@@ -26,16 +26,16 @@ export default function Home() {
           <div className='flex items-center justify-center h-1/2 mt-20 ml-10'>
             <ul>
               <div className='mt-10'>
-              <span className=' text-dark font-bold text-4xl '>  I'm Aryadeep  Gogoi  </span>
+              <span className=' text-dark font-bold text-4xl dark:text-light'>  I'm Aryadeep  Gogoi  </span>
 
               </div>
 
               <div className='mt-3'>
-                <span className=' text-dark/90  p-12 text-2xl '>passionate about</span>
+                <span className=' text-dark/90  p-12 text-2xl dark:text-light'>passionate about</span>
               </div>
 
 <div className='pt-6 pl-6'>
-<span className='font-bold text-4xl text-dark shoot'><TypingText/></span>
+<span className='font-bold text-4xl text-dark shoot dark:text-primary'><TypingText/></span>
 
 
 </div>
@@ -55,7 +55,7 @@ export default function Home() {
 
           <div className='flex items-center justify-center h-screen w-1/4 '>
             <ul>
-              <span className=' text-dark  text-2xl '>  I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi  </span>
+              <span className=' text-dark  text-xl dark:text-primary'>  I'm Aryadeep adeep  Gogoi   I'm A I'm Aryade adeep  Gogoi   I'm A I'm Aryade Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi  </span>
             </ul>
           </div>
 

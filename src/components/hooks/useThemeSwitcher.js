@@ -8,7 +8,7 @@ const useThemeSwitcher = () => {
 
     useEffect (() => {
         const mediaQuery = window.matchMedia(preferDarkQuery);
-        const userPref = windows.localStorage.getItem("theme");
+        const userPref = window.localStorage.getItem("theme");
 
         const handleChange =() => {
             if(userPref){
