@@ -37,7 +37,7 @@ const Footer = () => {
                                 <TwitterIcon />
                             </motion.a>
 
-                            <motion.a href="https://www.instagram.com/arya__deep__31/" target={"_blank"} className='w-full' whileHover={{ y: -3 }}
+                            <motion.a  href="https://www.instagram.com/arya__deep__31/" target={"_blank"} className='w-full' whileHover={{ y: -3 }}
                                 whileTap={{ scale: 0.9 }}>
                                 <InstagramIcon />
 
@@ -53,8 +53,9 @@ const Footer = () => {
 
                     <div className='text-light text-bold  mt-1 mr-'>
                         Contact <span className='text-light'> me at </span>
-                        <a className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
-                        </a> 
+                        <motion.a  whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }} className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
+                        </motion.a> 
                     </div>
 
                 </div>
@@ -62,9 +63,12 @@ const Footer = () => {
                 <div className='pt-6 text-light mr-20'>
                     <ul>
                         <div className='text-light font-bold pb-2 mr-10 grid '>
-                            <a href='/about' className='text-primary text-md pb-2 '> About  </a>
-                            <a href='/projects' className='text-primary text-md pb-2 '> Projects </a>
-                            <a href='/contact' className='text-primary text-md pb-2 '> Conatct </a>
+                            <motion.a   whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary text-md pb-2 '> About  </motion.a>
+                            <motion.a   whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }} href='/projects' className='text-primary text-md pb-2 '> Projects </motion.a>
+                            <motion.a   whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }} href='/contact' className='text-primary text-md pb-2 '> Conatct </motion.a>
 
                         </div>
                     </ul>
@@ -76,12 +80,16 @@ const Footer = () => {
                         <div className='text-light font-bold pb-2 ml-2'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'> at </span>
                         </div>
-                        <div className='text-light font-bold pb-4'>
-                            <li className='text-primary text-md pb-2 '> Symphonic Verse </li>
-                            <li className='text-primary text-md pb-2 '> Canvas Gallery </li>
-                            <li className='text-primary text-md pb-2 '> Word Craft </li>
+                        <motion.div    className='text-light font-bold pb-4 grid'>
+                        <motion.a whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }}   href='/musicroom' className='text-primary text-md pb-2 '> Symphonic Verse  </motion.a>
+                            <motion.a   whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }}  href='/canvasgallery' className='text-primary text-md pb-2 '> Canvas Gallery </motion.a>
+                            <motion.a   whileHover={{ color: 'violet' }}
+                                whileTap={{ scale: 0.9 }}   href='/wordcraft' className='text-primary text-md pb-2 '> Word Craft </motion.a>
+                            
 
-                        </div>
+                        </motion.div>
                     </ul>
                 </div>
             </footer>
