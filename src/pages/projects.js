@@ -81,7 +81,7 @@ const projects = () => {
                         <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70' />
 
                         <div className='grid grid-cols-12 gap-24'>
-                            <div className='col-span-12 '>
+                            <div className='col-span-12  '>
                                 <ProjectDetails
 
                                     title="Posua 2023 Website "

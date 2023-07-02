@@ -82,12 +82,16 @@ const contact = () => {
                 <meta name=" description" content="about my contact"></meta>
             </Head>
 
-            <main>
+            <main className='w-full'>
                 <motion.div className='' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
                     <Layout className=''>
                         <AnimatedText text="Connect With Me" className=' ' />
                         <AnimatedText text="Or drop a feedback" className=' !text-3xl font-bold text-dark/70 mb-10' />
                     </Layout>
+
+                    
+
+                    <div className=' grid items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-1/2 mb-20'>
 
                     {error && (
                         <Text color="red.300" my={4} fontSize="xl">
@@ -95,13 +99,9 @@ const contact = () => {
                         </Text>
                     )}
 
-                    <div className='grid col-12'>
-
-                        
-
                         <FormControl className='grid w-full items-center justify-center' isRequired isInvalid={touched.name && !values.name} mb={5}>
                             <FormLabel className='text-dark/80 font-bold'>Enter Your Name</FormLabel>
-                            <Input className='rounded-full w-full mb-2'
+                            <Input className='rounded-full w-full mb-2 '
                                 type="text"
                                 name="name"
                                 errorBorderColor="red.300"
