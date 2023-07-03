@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{ useState } from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
@@ -15,7 +15,6 @@ import {
     Textarea,
     useToast,
 } from "@chakra-ui/react";
-import { useState } from "react";
 import { sendContactForm } from "../lib/api";
 import Map from "../components/map"
 import TransitionEffect from '@/components/TransitionEffect';
@@ -50,6 +49,8 @@ const contact = () => {
             },
         }));
 
+
+
     const onSubmit = async () => {
         setState((prev) => ({
             ...prev,
@@ -60,10 +61,10 @@ const contact = () => {
             setTouched({});
             setState(initState);
             toast({
-                title: "Message sent to Aryadeep Gogoi.",
+                title: "Message sent to Aryadeep Gogoi",
                 status: "success",
-                duration: 2000,
-                position: "top",
+                duration: 3000,
+                position: "top-left",
             });
         } catch (error) {
             setState((prev) => ({
@@ -73,6 +74,8 @@ const contact = () => {
             }));
         }
     };
+
+    const [messageSent, setMessageSent] = useState(false);
 
 
 
@@ -115,7 +118,7 @@ const contact = () => {
                                 onChange={handleChange}
                                 onBlur={onBlur}
                             />
-                            <FormErrorMessage className='text-primaryDark/80'>Required</FormErrorMessage>
+                            <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
                         <FormControl className='grid w-full items-center justify-center' isRequired isInvalid={touched.email && !values.email} mb={5}>
@@ -128,7 +131,7 @@ const contact = () => {
                                 onChange={handleChange}
                                 onBlur={onBlur}
                             />
-                            <FormErrorMessage>Required</FormErrorMessage>
+                            <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
                         <FormControl className='grid w-full items-center justify-center'
@@ -145,7 +148,7 @@ const contact = () => {
                                 onChange={handleChange}
                                 onBlur={onBlur}
                             />
-                            <FormErrorMessage>Required</FormErrorMessage>
+                            <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
                         <FormControl className='grid w-full items-center justify-center'
@@ -163,8 +166,10 @@ const contact = () => {
                                 onChange={handleChange}
                                 onBlur={onBlur}
                             />
-                            <FormErrorMessage>Required</FormErrorMessage>
+                            <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
+
+                        {messageSent && <p>Message sent successfully!</p>}
 
                         <Button className='border border-dark rounded-full w-[20%] bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold'
                             variant="outline"
@@ -174,16 +179,17 @@ const contact = () => {
                                 !values.name || !values.email || !values.subject || !values.message
                             }
                             onClick={onSubmit}
+                        
                         >
+
 
                             Submit
                         </Button>
 
                     </div>
 
-                    <div>
-                        {/* <Map address="Lankeswar , Guwahati , Assam"/> */}
-                    </div>
+
+
 
                 </motion.div>
 

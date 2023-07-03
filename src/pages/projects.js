@@ -27,8 +27,13 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
                 <p className='my-8 w-[90%] font-dark dark:text-light'>{summary}</p>
                 <div className='flex items-center'>
+                    
                     <Link className='mr-4 ' href={github} target='_blank'> <GithubIcon /></Link>
-                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white' href={link} target='_blank'> Explore Project </Link>
+                    <motion.div whileHover={{scale:1.05}} transition={{duration:0.5}} >
+                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white ' href={link} target='_blank'> Explore Project </Link>
+
+
+                    </motion.div>
                 </div>
             </div>
         </article>
@@ -48,7 +53,11 @@ const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
                 <p className='my-8 w-[90%] font-dark dark:text-light'>{summary}</p>
                 <div className='flex items-center'>
                     <Link className='mr-4 ' href={github} target='_blank'> <GithubIcon /></Link>
-                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white' href={link} target='_blank'> Explore Project </Link>
+                    <motion.div whileHover={{scale:1.05}} transition={{duration:0.5}} >
+                    <Link className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white ' href={link} target='_blank'> Explore Project </Link>
+
+
+                    </motion.div>
                 </div>
             </div>
             <Link className='w-1/2 overflow-hidden rounded-lg ' href={link} target='_blank'>
