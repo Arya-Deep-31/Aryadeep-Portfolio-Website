@@ -10,8 +10,8 @@ const Footer = () => {
         <div className='w-full h-1 bg-primary/80'>
 
         </div>
-            <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-5'>
-                <div className='p-5'>
+            <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex flex-row justify-around items-start p-5 sm:text-base  md:flex-col md:items-center justify-between sm:items-center justify-between '>
+                <div className='p-5 '>
                     <ul>
                         <div className='text-light font-bold pb-4 ml-12'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'>is at </span>
@@ -54,7 +54,7 @@ const Footer = () => {
 
                     </ul>
 
-                    <div className='text-light text-bold  mt-1 mr-'>
+                    <div className='text-light text-bold  mt-1 '>
                         Contact <span className='text-light'> me at </span>
                         <motion.a  whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
@@ -63,15 +63,15 @@ const Footer = () => {
 
                 </div>
 
-                <div className='pt-6 text-light mr-20'>
+                <div className='pt-6 text-light '>
                     <ul>
                         <div className='text-light font-bold pb-2 mr-10 grid '>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary text-md pb-2 '> About  </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary  pb-2 '> About  </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/projects' className='text-primary text-md pb-2 '> Projects </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/projects' className='text-primary  pb-2 '> Projects </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/contact' className='text-primary text-md pb-2 '> Contact </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/contact' className='text-primary  pb-2 '> Contact </motion.a>
 
                         </div>
                     </ul>
@@ -80,16 +80,16 @@ const Footer = () => {
 
                 <div className='p-4 text-light'>
                     <ul>
-                        <div className='text-light font-bold pb-2 ml-2'>
+                        <div className='text-light font-bold pb-2'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'> at </span>
                         </div>
                         <motion.div    className='text-light font-bold pb-4 grid'>
                         <motion.a whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}   href='/musicroom' className='text-primary text-md pb-2 '> Symphonic Verse  </motion.a>
+                                whileTap={{ scale: 0.9 }}   href='/musicroom' className='text-primary  pb-2 '> Symphonic Verse  </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}  href='/canvasgallery' className='text-primary text-md pb-2 '> Canvas Gallery </motion.a>
+                                whileTap={{ scale: 0.9 }}  href='/canvasgallery' className='text-primary  pb-2 '> Canvas Gallery </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}   href='/wordcraft' className='text-primary text-md pb-2 '> Word Craft </motion.a>
+                                whileTap={{ scale: 0.9 }}   href='/wordcraft' className='text-primary  pb-2 '> Word Craft </motion.a>
                             
 
                         </motion.div>
