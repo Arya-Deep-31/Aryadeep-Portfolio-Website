@@ -32,16 +32,22 @@ const about = () => {
                     <Layout className=''>
                         
                         <AnimatedText text="Passion To Potential " />
-                        <AnimatedText text=" About Me" className=' !text-3xl  text-dark/70 mb-14 ' />
+                        <AnimatedText text=" About Me" className=' !text-3xl  text-dark/70 md:!text-2xl sm:!text-xl' />
 
 
 
 
-                        <div className='grid w-full grid-cols-7 gap-20'>
+                        <div className='grid  w-full grid-cols-9 gap-12 items-center justify-between p-4    lg:p-8 lg:grid-cols-3  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3'>
 
-                            <div className='col-span-4 flex flex-col items-start justify-start'>
+                            
 
-                                <p className='pb-4'> I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad
+                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
+                                <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                            </div>
+
+                            <div className='col-span-3 flex flex-col items-start justify-start mt-6'>
+
+                                <p className='pb-3'> I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad
                                 </p>
 
                                 <p className='pb-4'>I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad</p>
@@ -49,8 +55,9 @@ const about = () => {
 
                             </div>
 
-                            <div className='col-span-3 relative rounded-2xl border-2 ml-2 border-solid border-dark/30 bg-light p-8  justify-end'>
-                                <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-auto rounded-2xl " />
+
+                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary justify-end'>
+                                <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
                         </div>
