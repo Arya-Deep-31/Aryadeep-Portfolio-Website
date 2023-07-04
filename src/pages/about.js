@@ -41,7 +41,7 @@ const about = () => {
 
                             
 
-                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
+                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
                                 <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
@@ -56,7 +56,7 @@ const about = () => {
                             </div>
 
 
-                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary justify-end'>
+                            <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary justify-end'>
                                 <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 

@@ -9,16 +9,16 @@ import { motion } from "framer-motion";
 const musicroom = () => {
     return (
         <>
-            <Head>
+            <Head >
                 <title> Aryadeep Gogoi's | Contact's Page
 
                 </title>
                 <meta name=" description" content="passion 1"></meta>
             </Head>
 
-            <main>
+            <main className='gradient-background'>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-                    <Layout className=''>
+                    <Layout className='gradient-background h-screen'>
                         <AnimatedText text="Welcome" className='mb-2 ' />
                         <AnimatedText text="To Symphonic Verse" className=' !text-3xl font-bold text-dark/70' />
                     </Layout>
