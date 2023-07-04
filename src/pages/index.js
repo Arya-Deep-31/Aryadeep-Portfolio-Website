@@ -39,10 +39,10 @@ export default function Home() {
 
 
               <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-              <span className=' text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! I'm </span>
+                <span className=' text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! I'm </span>
 
-                <div className='-mt-8 w-60 rotate-12 xl:w-52 sm:w-48'> 
-                <Image src={Signature}/>
+                <div className='-mt-8 w-60 rotate-12 xl:w-52 sm:w-48'>
+                  <Image src={Signature} />
 
                 </div>
 
@@ -74,9 +74,11 @@ export default function Home() {
 
 
 
-                <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
-                <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
-                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
+                <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'> Aryadeep Gogoi this side , travelling in the voyage of codes advancing through the waves of design and development</span>
+                <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>Feel free to explore my portfolio and get in touch if you're interested in collaborating on an exciting project. </span>
+                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>Let's embark on a journey of innovation and creativity!
+                  Stay inspired,
+                </span>
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
