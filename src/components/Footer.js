@@ -6,8 +6,9 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
     return (
-        <>
-        <div className='w-full h-1 gradient-background h-2'>
+        <> 
+        
+        <div className='w-full gradient-background  h-2'>
 
         </div>
             <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex flex-row justify-around items-start p-5 sm:text-base  md:flex-col md:items-center justify-between sm:items-center justify-between '>
@@ -101,7 +102,7 @@ const Footer = () => {
 
         </div>
 
-            <div className='flex-flex-col justify-center items-center text-center p-2 pb-4 bg-darker text-light'>
+            <div className='flex-flex-col justify-center items-center text-center  p-4  bg-darker text-light'>
                 <h1>_ Aryadeep's Portfolio website _</h1>All rights reserved | 2023
 
             </div>

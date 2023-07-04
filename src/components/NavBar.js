@@ -52,7 +52,7 @@ const NavBar = () => {
     const [mode, setMode] = useThemeSwitcher();
 
     return (
-        <header className='w-full px-32 py-5 z-50 fixed font-semibold flex items-center text-lg justify-between dark:text-light relative'>
+        <header className='w-full px-32 py-5 z-50 fixed  font-semibold flex items-center text-lg justify-between dark:text-light relative'>
 
 
 
@@ -178,13 +178,22 @@ const NavBar = () => {
                                 <FacebookIcon />
                             </motion.a>
 
-                            <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
-                                {
-                                    mode === "dark" ? <SunIcon className={'fill-dark'} />
-                                        : <MoonIcon className={"fill-dakr"} />
-                                }
 
-                            </button>
+                            <motion.a
+                                whileHover={{ y: -3 }}
+                                whileTap={{ scale: 0.9 }}
+                                className='w-6 mr-4'>
+                                <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
+                                    {
+                                        mode === "dark" ? <SunIcon className={'fill-dark'} />
+                                            : <MoonIcon className={"fill-dakr"} />
+                                    }
+
+                                </button>
+
+                            </motion.a>
+
+
                         </nav>
                     </div>
 

@@ -1,38 +1,3 @@
-// import React from 'react'
-// import Head from 'next/head'
-// import AnimatedText from '@/components/AnimatedText'
-// import Layout from '@/components/Layout'
-// import { motion } from "framer-motion";
-
-
-
-// const musicroom = () => {
-//     return (
-//         <>
-//             <Head >
-//                 <title> Aryadeep Gogoi's | Contact's Page
-
-//                 </title>
-//                 <meta name=" description" content="passion 1"></meta>
-//             </Head>
-
-//             <main className=''>
-//                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
-//                     <Layout className=' min-h-screen'>
-//                         <AnimatedText text="Welcome" className='mb-2 ' />
-//                         <AnimatedText text="To Symphonic Verse" className=' !text-3xl font-bold text-dark/70' />
-//                     </Layout>
-
-//                 </motion.div>
-
-
-//             </main>
-
-//         </>
-//     )
-// }
-
-// export default musicroom
 
 
 
@@ -47,9 +12,9 @@ import AnimatedText from '@/components/AnimatedText'
 import MusicTypingText from '@/components/MusicTypingText'
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
-import Skills from '@/components/Skills'
 import Link from 'next/link'
-import { GithubIcon } from '@/components/Icons'
+import { HtmlIcon, LinkedInIcon, CssIcon, ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon, TailwindCssIcon, NodejsIcon, CanvaIcon, LeetcodeIcon, DribbbleIcon } from '../components/Icons';
+
 
 
 
@@ -73,12 +38,11 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 
             </Link>
-            <div className=' flex flex-col items-start justify-between pl-12 xl:pl-2 lg:w-full'>
-                <span className='text-primaryDark/80 text-2xl font-bold dark:text-light/70 sm:text-lg xs:text-base'>{type}</span>
+            <div className=' flex flex-col items-start justify-between pl-12 xl:pl-2 w-full'>
 
                 <h2 className='my-2 w-full  text-left text-4xl text-dark/90 font-bold dark:text-light md:text-3xl sm:text-2xl' >{title}</h2>
 
-                <p className='my-8 w-[90%] font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
+                <p className='my-8 w-full font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
                 <div className='flex items-center'>
 
                     <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }}>
@@ -98,7 +62,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 
 
-export default function Home() {
+export default function MusicRoom() {
     return (
         <>
             <Head >
@@ -115,7 +79,7 @@ export default function Home() {
 
 
 
-            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
                 <Image src={musicprofile2} className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
@@ -133,7 +97,7 @@ export default function Home() {
 
 
 
-                            <div className='grid -my-12 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xl:ml-2 xs:-ml-2'>
+                            <div className='grid -my-12 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xs:-ml-10'>
 
 
 
@@ -148,7 +112,7 @@ export default function Home() {
 
                                     <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate about</span>
 
-                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl'><MusicTypingText /></span>
+                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-3xl'><MusicTypingText /></span>
 
 
                                 </div>
@@ -181,7 +145,21 @@ export default function Home() {
                             </div>
 
 
-                            <AnimatedText text="Hustling Through Projects " className='mt-10 lg:mt-20 xl:mt-24' />
+
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+                            <AnimatedText text="Hustling Through Projects " className='mt-10  lg:mt-20 mt-28' />
                             <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
 
@@ -196,7 +174,7 @@ export default function Home() {
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi  'm ArygoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                         link="https://www.posua23.in/"
-                                        github="/"
+
 
                                     />
                                 </div>
@@ -208,7 +186,7 @@ export default function Home() {
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi   I'm A Ieep  Gyadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                         link="https://www.posua23.in/"
-                                        github="/"
+
 
                                     />
                                 </div>
@@ -220,23 +198,14 @@ export default function Home() {
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi   I'm A I'mp  Gogdeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                         link="https://www.posua23.in/"
-                                        github="/"
+
 
                                     />
                                 </div>
-                                {/* <div className='col-span-12'>
-                                <ProjectDetails2
 
-                                    title="Posua 2023 Website "
-                                    type="Project 1"
-                                    img={project1}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
-                                    github="/"
 
-                                />
-                            </div> */}
                             </div>
+
 
 
                         </Layout  >

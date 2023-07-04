@@ -1,4 +1,4 @@
-import React ,{ useState } from 'react'
+import React, { useState } from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
@@ -75,7 +75,6 @@ const contact = () => {
         }
     };
 
-    const [messageSent, setMessageSent] = useState(false);
 
 
 
@@ -87,7 +86,7 @@ const contact = () => {
                 </title>
                 <meta name=" description" content="about my contact"></meta>
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
 
             <main className=' flex flex-col items-center justify-center p-4 '>
                 <motion.div className='' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
@@ -96,23 +95,25 @@ const contact = () => {
                         <AnimatedText text="Or drop a feedback" className=' !text-2xl font-bold text-dark/70 mb-4 sm:!text-xl' />
                     </Layout>
 
-                    
+
 
                     <div className='  dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary p-10 mx-auto flex flex-col items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-full  mb-20'>
 
-                    {error && (
-                        <Text color="red.300" my={4} fontSize="xl">
-                            {error}
-                        </Text>
-                    )}
-                
+                        {error && (
+                            <Text className='dark:text-light text-dark text-xl mb-2' >
+                                {error}
+                            </Text>
+                        )}
 
-                
+                        
+
+
+
 
                         <FormControl className='w-full items-center justify-center' isRequired isInvalid={touched.name && !values.name} mb={5}>
                             <FormLabel className=' text-dark/80 font-bold dark:text-light '>Enter Your Name </FormLabel>
                             <Input className='rounded w-full'
-                            
+
                                 type="text"
                                 name="name"
                                 errorBorderColor="red.300"
@@ -125,7 +126,7 @@ const contact = () => {
 
                         <FormControl className='w-full items-center justify-center' isRequired isInvalid={touched.email && !values.email} mb={5}>
                             <FormLabel className='text-dark/80 font-bold dark:text-light'>Enter Your Email </FormLabel>
-                            <Input  className='rounded w-full mb-2 '
+                            <Input className='rounded w-full mb-2 '
                                 type="email"
                                 name="email"
                                 errorBorderColor="red.300"
@@ -142,7 +143,7 @@ const contact = () => {
                             isInvalid={touched.subject && !values.subject}
                         >
                             <FormLabel className='text-dark/80 font-bold dark:text-light'>Subject </FormLabel>
-                            <Input  className='rounded w-full mb-2 lg:w-full '
+                            <Input className='rounded w-full mb-2 lg:w-full '
                                 type="text"
                                 name="subject"
                                 errorBorderColor="red.300"
@@ -158,13 +159,13 @@ const contact = () => {
                             isInvalid={touched.message && !values.message}
                             mb={5}
                         >
-                            <FormLabel  className='text-dark/80 font-bold dark:text-light'>Message </FormLabel>
-                            <textarea  className='rounded w-full mb-2 lg:w-full'
+                            <FormLabel className='text-dark/80 font-bold dark:text-light'>Message </FormLabel>
+                            <Textarea className='rounded w-full mb-2 lg:w-full'
                                 type="text"
-                                name="subject"
-                                rows={2}
+                                name="message"
+                                rows={3}
                                 errorBorderColor="red.300"
-                                value={values.subject}
+                                value={values.message}
                                 onChange={handleChange}
                                 onBlur={onBlur}
                             />
@@ -180,22 +181,26 @@ const contact = () => {
                             <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
-                        {messageSent && <p>Message sent successfully!</p>}
 
-                        <Button className='border border-dark rounded-full w-40 bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold md:w-[50%] sm:w-[50%]'
-                            variant="outline"
-                            colorScheme="blue"
-                            isLoading={isLoading}
-                            disabled={
-                                !values.name || !values.email || !values.subject || !values.message
-                            }
-                            onClick={onSubmit}
-                        
-                        >
+                        <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 1 }} >
+                            <Button className='border border-dark rounded-full w-40 bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold md:w-[50%] sm:w-[50%]'
+                                variant="outline"
+                                colorScheme="blue"
+                                isLoading={isLoading}
+                                disabled={
+                                    !values.name || !values.email || !values.subject || !values.message
+                                }
+                                onClick={onSubmit}
+
+                            >
 
 
-                            Submit
-                        </Button>
+                                Submit
+                            </Button>
+
+                        </motion.div>
+
+
 
                     </div>
 
