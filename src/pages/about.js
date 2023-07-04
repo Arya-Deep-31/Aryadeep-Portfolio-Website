@@ -19,7 +19,7 @@ const about = () => {
     return (
         <>
             <Head>
-                <title> Aryadeep Gogoi's | About Page
+                <title> Aryadeep Gogoi | About Page
 
                 </title>
                 <meta name=" description" content="about me"></meta>
@@ -47,11 +47,11 @@ const about = () => {
 
                             <div className='col-span-3 flex flex-col items-start justify-start mt-6'>
 
-                                <p className='pb-3'> I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad
+                                <p className='pb-3'> hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad
                                 </p>
 
-                                <p className='pb-4'>I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad</p>
-                                <p className='pb-2'>I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm AryadI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryad</p>
+                                <p className='pb-4'>hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
+                                <p className='pb-2'>hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
 
                             </div>
 

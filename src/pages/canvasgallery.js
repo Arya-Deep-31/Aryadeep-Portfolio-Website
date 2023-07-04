@@ -66,7 +66,7 @@ export default function CanvasRoom() {
     return (
         <>
             <Head >
-                <title>Aryadeep's Portfolio</title>
+                <title>Aryadeep canvas room</title>
                 <meta name="description" content="home page" />
 
             </Head>
@@ -82,7 +82,7 @@ export default function CanvasRoom() {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image  alt="Music Profile" src={musicprofile2} className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>
@@ -105,7 +105,7 @@ export default function CanvasRoom() {
                                     <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! Rhythm lovers </span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
-                                        <Image src={Signature} />
+                                        <Image alt="Music Profile" src={Signature} />
 
                                     </div>
 

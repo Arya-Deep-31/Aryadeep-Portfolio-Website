@@ -78,7 +78,7 @@ const projects = () => {
     return (
         <>
             <Head >
-                <title> Aryadeep Gogoi's | Projects Page
+                <title> Aryadeep Gogoi | Projects Page
 
                 </title>
                 <meta name=" description" content="about my projects"></meta>

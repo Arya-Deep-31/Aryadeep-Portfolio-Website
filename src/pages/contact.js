@@ -82,7 +82,7 @@ const contact = () => {
     return (
         <>
             <Head>
-                <title> Aryadeep Gogoi's | Contact's Page
+                <title> Aryadeep Gogoi | Contact Page
 
                 </title>
                 <meta name=" description" content="about my contact"></meta>

@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
 
             <div className='flex-flex-col justify-center items-center text-center  p-4  bg-darker text-light'>
-                <h1>_ Aryadeep&apos;s Portfolio website _</h1>All rights reserved | 2023
+                <h1>_ Aryadeep Portfolio website _</h1>All rights reserved | 2023
 
             </div>
         </>
