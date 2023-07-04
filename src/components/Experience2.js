@@ -226,11 +226,8 @@ const Experience2 = () => {
 
 
     return (
-        <div className='mb-24'>
-            <Layout className=''>
-                <AnimatedText text="Journey Through " className='mb-2 ' />
-                <AnimatedText text="My Education" className=' !text-3xl font-bold text-dark/70  md:!text-2xl sm:!text-xl mb-8' />
-            </Layout>
+        <div className='mb-24 -mt-6'>
+            
 
 
 

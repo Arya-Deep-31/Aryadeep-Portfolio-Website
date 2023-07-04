@@ -31,8 +31,8 @@ const about = () => {
                 <main className='flex w-full flex-col items-center justify-center mb-20'>
                     <Layout className=''>
                         
-                        <AnimatedText text="Passion To Potential " />
-                        <AnimatedText text=" About Me" className=' !text-3xl  text-dark/70 md:!text-2xl sm:!text-xl' />
+                        <AnimatedText text="Passion To Potential " className='mt-2 sm:mt-6'/>
+                        <AnimatedText text=" About Me" className=' !text-3xl  text-dark/70 md:!text-2xl sm:!text-xl ' />
 
 
 

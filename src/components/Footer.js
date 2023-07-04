@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className='text-light font-bold pb-4 ml-12'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'>is at </span>
                         </div>
-                        <div className='flex gap-5 text-light  p-2'>
+                        <div className='flex gap-5 text-light  p-2 sm:p-0'>
 
                             <motion.a href="https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target={"_blank"} className='w-full mr-1'
                                 whileHover={{ y: -3 }}
@@ -54,8 +54,8 @@ const Footer = () => {
 
                     </ul>
 
-                    <div className='text-light text-bold  mt-1 '>
-                        Contact <span className='text-light'> me at </span>
+                    <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4'>
+                        Mail <span className='text-light'> me at </span>
                         <motion.a  whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
                         </motion.a> 
@@ -63,11 +63,11 @@ const Footer = () => {
 
                 </div>
 
-                <div className='pt-6 text-light '>
+                <div className='pt-6 text-light -ml-10'>
                     <ul>
-                        <div className='text-light font-bold pb-2 mr-10 grid '>
+                        <div className='text-light font-bold pb-2 flex flex-col items-center justify-center sm:ml-8  '>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary  pb-2 '> About  </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary  pb-2'> About  </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} href='/projects' className='text-primary  pb-2 '> Projects </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
@@ -85,11 +85,11 @@ const Footer = () => {
                         </div>
                         <motion.div    className='text-light font-bold pb-4 grid'>
                         <motion.a whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}   href='/musicroom' className='text-primary  pb-2 '> Symphonic Verse  </motion.a>
+                                whileTap={{ scale: 0.9 }}   href='/musicroom' className='text-primary  pb-2 sm:text-sm'> Symphonic Verse  </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}  href='/canvasgallery' className='text-primary  pb-2 '> Canvas Gallery </motion.a>
+                                whileTap={{ scale: 0.9 }}  href='/canvasgallery' className='text-primary  pb-2 sm:text-sm'> Canvas Gallery </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }}   href='/wordcraft' className='text-primary  pb-2 '> Word Craft </motion.a>
+                                whileTap={{ scale: 0.9 }}   href='/wordcraft' className='text-primary  pb-2 sm:text-sm'> Word Craft </motion.a>
                             
 
                         </motion.div>

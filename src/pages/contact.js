@@ -93,7 +93,7 @@ const contact = () => {
                 <motion.div className='' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
                     <Layout className=''>
                         <AnimatedText text="Connect With Me" className='' />
-                        <AnimatedText text="Or drop a feedback" className=' !text-2xl font-bold text-dark/70 mb-4 sm:!text-2xl' />
+                        <AnimatedText text="Or drop a feedback" className=' !text-2xl font-bold text-dark/70 mb-4 sm:!text-xl' />
                     </Layout>
 
                     

@@ -34,22 +34,22 @@ export default function Home() {
 
 
 
-            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3'>
+            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xl:ml-2 xs:-ml-2'>
 
 
 
-              <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
-              <span className=' text-dark font-bold text-5xl dark:text-light  md:text-4xl sm:text-3xl xs:text-2xl '>Hey ! I'm </span>
+              <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
+              <span className=' text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! I'm </span>
 
-                <div className='-mt-8 w-60 rotate-12 sm:w-48'> 
+                <div className='-mt-8 w-60 rotate-12 xl:w-52 sm:w-48'> 
                 <Image src={Signature}/>
 
                 </div>
 
 
-                <span className='mb-4 -mt-8 text-dark/90 text-2xl dark:text-light  md:text-xl sm:text-lg xs:text-base'>passionate about</span>
+                <span className='mb-4 -mt-8 text-dark/90 text-2xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate about</span>
 
-                <span className=' font-bold text-6xl ml-1 text-dark shoot dark:text-primary md:text-3xl sm:text-3xl xs:text-2xl'><TypingText /></span>
+                <span className=' font-bold text-6xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl'><TypingText /></span>
 
 
               </div>
@@ -74,19 +74,19 @@ export default function Home() {
 
 
 
-                <span className='  text-dark/90 text-lg dark:text-light  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
-                <span className=' mt-4 text-dark/90 text-lg dark:text-light  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
-                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
+                <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
+                <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
+                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
 
-                <div className='flex flex-row '>
+                <div className='flex flex-row mb-4 lg:mb-6'>
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white ' href="/" target='_blank'> My Resume </button>
+                    <button className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg' href="/" target='_blank'> My Resume </button>
 
 
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white ' href="/" target='_blank'> My Resume </button>
+                    <button className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg ' href="/" target='_blank'> My Resume </button>
 
 
                   </motion.div>
