@@ -72,7 +72,7 @@ const Footer = () => {
                             <motion.a   whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2 '> Projects </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2 '> Contact </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/contact' className='text-primary  pb-2 '> Contact </motion.a>
 
                         </div>
                     </ul>
