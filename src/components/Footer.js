@@ -68,11 +68,11 @@ const Footer = () => {
                     <ul>
                         <div className='text-light font-bold pb-2 flex flex-col items-center justify-center sm:ml-8  '>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/about' className='text-primary  pb-2'> About  </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2'> About  </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/projects' className='text-primary  pb-2 '> Projects </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2 '> Projects </motion.a>
                             <motion.a   whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} href='/contact' className='text-primary  pb-2 '> Contact </motion.a>
+                                whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2 '> Contact </motion.a>
 
                         </div>
                     </ul>

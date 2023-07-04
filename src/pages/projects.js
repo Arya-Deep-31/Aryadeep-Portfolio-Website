@@ -81,7 +81,7 @@ const projects = () => {
                 <title> Aryadeep Gogoi | Projects Page
 
                 </title>
-                <meta name=" description" content="about my projects"></meta>
+                <meta name=" Aryadeeps" content="about my projects"></meta>
             </Head>
             <TransitionEffect/>
 
