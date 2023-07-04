@@ -47,9 +47,9 @@ export default function Home() {
                 </div>
 
 
-                <span className='mb-4 -mt-8 text-dark/90 text-2xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate about</span>
+                <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate about</span>
 
-                <span className=' font-bold text-6xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl'><TypingText /></span>
+                <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl'><TypingText /></span>
 
 
               </div>

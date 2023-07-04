@@ -77,7 +77,7 @@ const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
 const projects = () => {
     return (
         <>
-            <Head>
+            <Head >
                 <title> Aryadeep Gogoi's | Projects Page
 
                 </title>
@@ -86,7 +86,7 @@ const projects = () => {
             <TransitionEffect/>
 
             <main className='w-full mb-20 flex flex-col items-center justify-center sm:mt-4'>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
                     <Layout className=''>
                         <AnimatedText text="Hustling Through Projects " className='' />
                         <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
