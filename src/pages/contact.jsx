@@ -5,11 +5,11 @@ import Layout from '@/components/Layout'
 import { motion } from "framer-motion";
 import {
     Button,
-    Container,
+    
     FormControl,
     FormErrorMessage,
     FormLabel,
-    Heading,
+
     Input,
     Text,
     Textarea,
@@ -27,7 +27,7 @@ const initState = { isLoading: false, error: "", values: initValues };
 
 
 
-const contact = () => {
+const Contact = () => {
 
 
 
@@ -210,4 +210,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
