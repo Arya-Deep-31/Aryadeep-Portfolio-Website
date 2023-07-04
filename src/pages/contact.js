@@ -63,8 +63,9 @@ const contact = () => {
             toast({
                 title: "Message sent to Aryadeep Gogoi",
                 status: "success",
-                duration: 3000,
-                position: "top-left",
+                duration: 2000,
+                position: "top",
+                
             });
         } catch (error) {
             setState((prev) => ({
@@ -164,7 +165,7 @@ const contact = () => {
                                 type="text"
                                 name="message"
                                 rows={3}
-                                errorBorderColor="red.300"
+                                errorBorderColor="red"
                                 value={values.message}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -183,7 +184,7 @@ const contact = () => {
 
 
                         <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 1 }} >
-                            <Button className='border border-dark rounded-full w-40 bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold md:w-[50%] sm:w-[50%]'
+                            <Button className='border border-dark rounded-full w-40  bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold md:p-1 md:w-full sm:w-full'
                                 variant="outline"
                                 colorScheme="blue"
                                 isLoading={isLoading}
