@@ -21,6 +21,7 @@ module.exports = {
         light: "#C9B9D3",
         primary: "#9B7CAE", 
         primaryDark: "#290E39", 
+        
       }
     },
     screens: {

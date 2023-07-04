@@ -39,7 +39,7 @@ export default function Home() {
 
 
               <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
-              <span className='-mt-8 text-dark font-bold text-5xl dark:text-light  md:text-4xl sm:text-3xl xs:text-2xl '>Hey ! I'm </span>
+              <span className=' text-dark font-bold text-5xl dark:text-light  md:text-4xl sm:text-3xl xs:text-2xl '>Hey ! I'm </span>
 
                 <div className='-mt-8 w-60 rotate-12 sm:w-48'> 
                 <Image src={Signature}/>
@@ -58,7 +58,7 @@ export default function Home() {
 
 
 
-              <div className='col-span-4 -my-8 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
+              <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
                 <Image src={profilePic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
               </div>
 
@@ -70,7 +70,7 @@ export default function Home() {
 
 
 
-              <div className='col-span-2 -mt-8 w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
+              <div className='col-span-2  w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
 
 
 

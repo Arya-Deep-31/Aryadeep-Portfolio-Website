@@ -89,16 +89,16 @@ const contact = () => {
             </Head>
             <TransitionEffect/>
 
-            <main className='w-full '>
+            <main className=' flex flex-col items-center justify-center p-4 '>
                 <motion.div className='' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
                     <Layout className=''>
-                        <AnimatedText text="Connect With Me" className=' ' />
-                        <AnimatedText text="Or drop a feedback" className=' !text-2xl font-bold text-dark/70 mb-4' />
+                        <AnimatedText text="Connect With Me" className='' />
+                        <AnimatedText text="Or drop a feedback" className=' !text-2xl font-bold text-dark/70 mb-4 sm:!text-2xl' />
                     </Layout>
 
                     
 
-                    <div className='dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary p-10 mx-auto flex flex-col items-center justify-between grid items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-1/2 mb-20'>
+                    <div className='  dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary p-10 mx-auto flex flex-col items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-full  mb-20'>
 
                     {error && (
                         <Text color="red.300" my={4} fontSize="xl">
@@ -107,9 +107,11 @@ const contact = () => {
                     )}
                 
 
-                        <FormControl className='' isRequired isInvalid={touched.name && !values.name} mb={5}>
-                            <FormLabel className='w-full text-dark/80 font-bold dark:text-light'>Enter Your Name </FormLabel>
-                            <Input className='rounded ' style={{ width: "40em" }}
+                
+
+                        <FormControl className='w-full items-center justify-center' isRequired isInvalid={touched.name && !values.name} mb={5}>
+                            <FormLabel className=' text-dark/80 font-bold dark:text-light '>Enter Your Name </FormLabel>
+                            <Input className='rounded w-full'
                             
                                 type="text"
                                 name="name"
@@ -121,9 +123,9 @@ const contact = () => {
                             <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
-                        <FormControl className='grid w-full items-center justify-center' isRequired isInvalid={touched.email && !values.email} mb={5}>
+                        <FormControl className='w-full items-center justify-center' isRequired isInvalid={touched.email && !values.email} mb={5}>
                             <FormLabel className='text-dark/80 font-bold dark:text-light'>Enter Your Email </FormLabel>
-                            <Input  className='rounded w-full mb-2' style={{ width: "40em" }}
+                            <Input  className='rounded w-full mb-2 '
                                 type="email"
                                 name="email"
                                 errorBorderColor="red.300"
@@ -134,13 +136,13 @@ const contact = () => {
                             <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
-                        <FormControl className='grid w-full items-center justify-center'
+                        <FormControl className=' w-full items-center justify-center'
                             mb={5}
                             isRequired
                             isInvalid={touched.subject && !values.subject}
                         >
                             <FormLabel className='text-dark/80 font-bold dark:text-light'>Subject </FormLabel>
-                            <Input  className='rounded w-full mb-2' style={{ width: "40em" }}
+                            <Input  className='rounded w-full mb-2 lg:w-full '
                                 type="text"
                                 name="subject"
                                 errorBorderColor="red.300"
@@ -151,13 +153,22 @@ const contact = () => {
                             <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
-                        <FormControl className='grid w-full items-center justify-center'
+                        <FormControl className='w-full items-center justify-center'
                             isRequired
                             isInvalid={touched.message && !values.message}
                             mb={5}
                         >
                             <FormLabel  className='text-dark/80 font-bold dark:text-light'>Message </FormLabel>
-                            <Textarea  className='rounded w-full mb-2' style={{ width: "40em" }}
+                            <textarea  className='rounded w-full mb-2 lg:w-full'
+                                type="text"
+                                name="subject"
+                                rows={2}
+                                errorBorderColor="red.300"
+                                value={values.subject}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {/* <Textarea  className='rounded w-full mb-2' style={{ width: "40em" }}
                                 type="text"
                                 name="message"
                                 rows={4}
@@ -165,13 +176,13 @@ const contact = () => {
                                 value={values.message}
                                 onChange={handleChange}
                                 onBlur={onBlur}
-                            />
+                            /> */}
                             <FormErrorMessage className='dark:text-light'>Required</FormErrorMessage>
                         </FormControl>
 
                         {messageSent && <p>Message sent successfully!</p>}
 
-                        <Button className='border border-dark rounded-full w-[20%] bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold'
+                        <Button className='border border-dark rounded-full w-40 bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold md:w-[50%] sm:w-[50%]'
                             variant="outline"
                             colorScheme="blue"
                             isLoading={isLoading}
