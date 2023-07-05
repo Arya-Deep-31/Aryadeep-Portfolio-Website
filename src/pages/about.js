@@ -50,7 +50,7 @@ const about = () => {
                                 <p className='pb-3'> hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad
                                 </p>
 
-                                <p className='pb-4'>hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
+                                <p className='pb-4'>hello Aryp  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
                                 <p className='pb-2'>hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
 
                             </div>
