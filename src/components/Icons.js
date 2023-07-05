@@ -6,7 +6,7 @@ export const HtmlIcon = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -44,7 +44,7 @@ export const CssIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -82,7 +82,7 @@ export const ScssIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 500 512"
+    viewBox="0 0 500 512"
     {...rest}
     className={`w-60 h-68 mt-1 ${className}`}
   >
@@ -127,7 +127,7 @@ export const BootstrapIcon = (className, ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -151,7 +151,7 @@ export const VscodeIcon = (className , ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -194,7 +194,7 @@ export const TailwindCssIcon = (className , ...rest) => (
 
 export const NodejsIcon = (className , ...rest) => (
   <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve"
-  viewBox="0  0 880 500"
+  viewBox="0 0 880 500"
   {...rest}
   className={`w-20 h-12  dark:fill-light ${className}`}>
     <path className="dark:fill-light"
@@ -215,7 +215,7 @@ export const JavaIcon = (className , ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -254,7 +254,7 @@ export const C2Icon = (className , ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >
@@ -333,7 +333,7 @@ export const IllustratorIcon = (className , ...rest) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    viewBox="0  0 512 512"
+    viewBox="0 0 512 512"
     {...rest}
     className={`w-full h-14 ${className}`}
   >

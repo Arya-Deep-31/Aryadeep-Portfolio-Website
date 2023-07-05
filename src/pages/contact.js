@@ -16,7 +16,6 @@ import {
     useToast,
 } from "@chakra-ui/react";
 import { sendContactForm } from "../lib/api";
-import Map from "../components/map"
 import TransitionEffect from '@/components/TransitionEffect';
 
 
