@@ -95,7 +95,7 @@ const projects = () => {
                             <div className='col-span-12  '>
                                 <ProjectDetails
 
-                                    title="Posua 2023 Website "
+                                    title=" "
                                     type="Project 1"
                                     img={project1}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
@@ -107,8 +107,8 @@ const projects = () => {
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
-                                    title="Posua 2023 Website "
-                                    type="Project 1"
+                                    title="Posua 2023 Website"
+                                    type="Project 2"
                                     img={project1}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://www.posua23.in/"
@@ -119,8 +119,34 @@ const projects = () => {
                             <div className='col-span-12'>
                                 <ProjectDetails
 
-                                    title="Posua 2023 Website "
-                                    type="Project 1"
+                                    title="CardioCare"
+                                    type="Project 3"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://cardio-care.netlify.app/"
+                                    github="/"
+
+                                />
+                            </div>
+                            <div className='col-span-12'>
+                                <ProjectDetails2
+
+                                    title="Personal Portfolio Project"
+                                    type="Project 4"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://aryadeep-portfolio-website.vercel.app/"
+                                    github="/"
+
+                                />
+                            </div>
+
+
+                            <div className='col-span-12'>
+                                <ProjectDetails
+
+                                    title="UI/UX | GUIDANCE GRID "
+                                    type="Project 5"
                                     img={project1}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://www.posua23.in/"
@@ -131,8 +157,8 @@ const projects = () => {
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
-                                    title="Posua 2023 Website "
-                                    type="Project 1"
+                                    title="UI/UX | POSUA 2023"
+                                    type="Project 6"
                                     img={project1}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://www.posua23.in/"
@@ -140,6 +166,57 @@ const projects = () => {
 
                                 />
                             </div>
+
+                            <div className='col-span-12'>
+                                <ProjectDetails
+
+                                    title="UI/UX | AgriShare"
+                                    type="Project 7"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://www.posua23.in/"
+                                    github="/"
+
+                                />
+                            </div>
+                            <div className='col-span-12'>
+                                <ProjectDetails2
+
+                                    title="UI/UX | Me-Eat App"
+                                    type="Project 8"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://www.posua23.in/"
+                                    github="/"
+
+                                />
+                            </div>
+
+                            <div className='col-span-12'>
+                                <ProjectDetails
+
+                                    title="UI/UX | ECS WEBSITE2022"
+                                    type="Project 9"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://www.posua23.in/"
+                                    github="/"
+
+                                />
+                            </div>
+                            <div className='col-span-12'>
+                                <ProjectDetails2
+
+                                    title="UI/UX | TrinetraGeeks"
+                                    type="Project 10"
+                                    img={project1}
+                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    link="https://www.posua23.in/"
+                                    github="/"
+
+                                />
+                            </div>
+
                         </div>
                     </Layout>
 

@@ -323,8 +323,6 @@ const Skills = () => {
                 </div>
 
 
-            
-
 
 
 
