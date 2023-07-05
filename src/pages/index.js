@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.png"
+import profilePic from "../../public/images/profile/developer-pic-1.webp"
 import Signature from "../../public/images/profile/signature.png"
 import AnimatedText from '@/components/AnimatedText'
 import TypingText from '@/components/TypingText'
@@ -59,7 +59,7 @@ export default function Home() {
 
 
               <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
-                <Image src={profilePic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                <Image src={profilePic} quality={55} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
               </div>
 
 

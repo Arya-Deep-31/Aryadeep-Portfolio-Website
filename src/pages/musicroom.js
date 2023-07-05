@@ -6,7 +6,7 @@ import musicprofile2 from "../../public/images/talentpages/musicbg (2).png"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.png"
+import profilePic from "../../public/images/profile/developer-pic-1.webp"
 import Signature from "../../public/images/profile/signature.png"
 import AnimatedText from '@/components/AnimatedText'
 import MusicTypingText from '@/components/MusicTypingText'
@@ -62,7 +62,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 
 
-export default function MusicRoom() {
+const MusicRoom = () => {
     return (
         <>
             <Head >
@@ -122,7 +122,7 @@ export default function MusicRoom() {
 
 
                                 <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
-                                    <Image src={profilePic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                    <Image src={profilePic} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 
 
@@ -224,3 +224,5 @@ export default function MusicRoom() {
     )
 }
 
+
+export default MusicRoom
