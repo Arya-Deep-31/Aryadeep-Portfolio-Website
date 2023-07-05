@@ -58,7 +58,7 @@ const Education = () => {
 
 
 
-            <div ref={ref} className='w-[75%] mx-auto relative '>
+            <div ref={ref} className='w-[75%] mx-auto relative xs:w-[85%]'>
 
                 <motion.div
                     style={{ scaleY: scrollYProgress }}

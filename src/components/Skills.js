@@ -89,7 +89,7 @@ const Skills = () => {
                 </div>
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> </motion.div>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <ReactIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
                             <p className='text-2xl font-bold text-light opacity-100'>

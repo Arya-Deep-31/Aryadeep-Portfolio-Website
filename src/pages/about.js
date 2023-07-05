@@ -7,7 +7,6 @@ import aboutPic from "../../public/images/profile/developer-pic-2.webp"
 import Skills from '@/components/Skills'
 import {motion} from "framer-motion" ;
 import Experience from '@/components/Experience'
-import Experience2 from '@/components/Experience2'
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -67,7 +66,6 @@ const about = () => {
 
                     <Skills />
                     <Experience/>
-                    <Experience2/>
                     <Education/>
                 </main>
             </motion.div>
