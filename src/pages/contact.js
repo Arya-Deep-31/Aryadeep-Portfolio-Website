@@ -97,7 +97,7 @@ const Contact = () => {
 
 
 
-                    {/* <div className='  dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary p-10 mx-auto flex flex-col items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-full  mb-20'>
+                    <div className='  dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary p-10 mx-auto flex flex-col items-center justify-center rounded-3xl border border-solid  bg-white/40 shadow-2xl w-full  mb-20'>
 
                         {error && (
                             <Text className='dark:text-light text-dark text-xl mb-2' >
@@ -194,7 +194,7 @@ const Contact = () => {
 
 
 
-                    </div> */}
+                    </div>
 
 
 

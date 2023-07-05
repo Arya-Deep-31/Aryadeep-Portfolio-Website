@@ -58,7 +58,7 @@ const Footer = () => {
                     <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4'>
                         Mail <span className='text-light'> me at </span>
                         <motion.a  whileHover={{ color: 'violet' }}
-                                whileTap={{ scale: 0.9 }} className='text-primary' href="https://mail.google.com/mail/u/0/#inbox">trish313131@gmail.com
+                                whileTap={{ scale: 0.9 }} className='text-primary' href="mailto:trish313131@gmail.com">trish313131@gmail.com
                         </motion.a> 
                     </div>
 
