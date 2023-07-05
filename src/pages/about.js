@@ -46,11 +46,17 @@ const about = () => {
 
                             <div className='col-span-3 flex flex-col items-start justify-start mt-6'>
 
-                                <p className='pb-3'> hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad
+                                <p className='pb-3'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
+
+I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in software development. Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
+
+
+
                                 </p>
 
-                                <p className='pb-4'>hello Aryp  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
-                                <p className='pb-2'>hello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryadhello Aryadeep  Gogoi   hello A hello Aryadeep  Gogoi ryadeep  Gogoi  hello Aryadeep  Gogoi   hello Aryad</p>
+                                <p className='pb-4'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
+</p>
+                                <p className='pb-2'> Stay inspired, and let's create something remarkable together!</p>
 
                             </div>
 
