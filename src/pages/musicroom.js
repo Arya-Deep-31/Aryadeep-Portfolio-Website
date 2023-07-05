@@ -20,15 +20,6 @@ import { HtmlIcon, LinkedInIcon, CssIcon, ScssIcon, FigmaIcon, ReactIcon, Bootst
 
 
 
-
-
-
-
-
-
-
-
-
 const ProjectDetails = ({ title, type, summary, img, link, github }) => {
     return (
         <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
@@ -67,7 +58,7 @@ const MusicRoom = () => {
         <>
             <Head >
                 <title>Aryadeep Portfolio</title>
-                <meta name="description" content="home page" />
+                <meta name="MUSIC ROOM" content="under work" />
 
             </Head>
 
@@ -97,7 +88,7 @@ const MusicRoom = () => {
 
 
 
-                            <div className='grid -my-12 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xs:-ml-10'>
+                            <div className='grid -my-12 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-12 xs:p-4 sm:mt-0 sm:grid-cols-3 '>
 
 
 
