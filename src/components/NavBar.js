@@ -57,9 +57,9 @@ const NavBar = () => {
 
 
             <button title="Search"n className=' flex-col -ml-24 my-2 hidden lg:flex ' onClick={handleClick}>
-                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out  block h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
-                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm my-0.5  ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out  block h-1 w-8 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5 '}`}></span>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-6 ml-1 rounded-sm my-0.5  ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
+                <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-8 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
             </button>
 
             <div className='w-full flex justify-between items-center lg:hidden'>

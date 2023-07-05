@@ -88,7 +88,7 @@ export default function Home() {
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 2</button>
+                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 2 </button>
 
 
                   </motion.div>
@@ -114,57 +114,7 @@ export default function Home() {
 
 
 
-      {/* <main className='flex items-center text-primaryDark w-full h-screen '>
-
-       
-
-
-        <div className=' w-full flex md:flex-row flex-col justify-around items-start mt-5'>
-
-
-          <div className='flex items-center justify-center h-1/2 mt-30 ml-10'>
-            <ul>
-              <div className='mt-10'>
-              <span className=' text-dark font-bold text-4xl dark:text-light'>  I'm Aryadeep  Gogoi  </span>
-
-              </div>
-
-              <div className='mt-3'>
-                <span className=' text-dark/90  p-12 text-2xl dark:text-light'>passionate about</span>
-              </div>
-
-<div className='pt-6 pl-6'>
-<span className='font-bold text-4xl text-dark shoot dark:text-primary'><TypingText/></span>
-
-
-</div>
-
-            </ul>
-
-          </div>
-
-
-
-          <div className=' text-light mt-8 ml-20'>
-            <div className='grid place-content-center'>
-              <Image src={profilePic} alt="Aryadeep Gogoi" className='w-full h-auto ' />
-            </div>
-          </div>
-
-
-          <div className='flex items-center justify-center h-screen w-1/4 '>
-            <ul>
-              <span className=' text-dark  text-xl dark:text-primary'>  I'm Aryadeep adeep  Gogoi   I'm A I'm Aryade adeep  Gogoi   I'm A I'm Aryade Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogoi  I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi   I'm Aryadeep  Gogoi  </span>
-            </ul>
-          </div>
-
-
-
-        </div>
-
-
-
-      </main> */}
+   
 
     </>
   )
