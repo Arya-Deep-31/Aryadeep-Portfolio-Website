@@ -58,7 +58,7 @@ export default function Home() {
 
 
 
-              <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:ml-0 xs:-mt-6'>
+              <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:ml-0 xs:-mt-8 xs:m-0'>
                 <Image src={profilePic} quality={20} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
               </div>
 
@@ -82,13 +82,13 @@ export default function Home() {
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg' href="/" target='_blank'> My Resume </button>
+                    <button title="Search" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 1</button>
 
 
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg ' href="/" target='_blank'> My Resume </button>
+                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 2</button>
 
 
                   </motion.div>
