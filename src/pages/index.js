@@ -39,7 +39,7 @@ export default function Home() {
 
 
               <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                <span className=' text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey  !  </span>
+                <span className=' text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey! Hustlers  </span>
 
                 <div className='-mt-8 w-60 rotate-12 xl:w-52 sm:w-48'>
                   <Image alt="Music Profile" src={Signature} />
@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
 
 
-                <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate about</span>
+                <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate about</span>
 
                 <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl'>typical</span>
 
