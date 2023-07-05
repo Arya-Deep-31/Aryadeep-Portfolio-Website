@@ -1,13 +1,13 @@
 
 
 
-import musicprofile from "../../public/images/talentpages/musicbg (1).png"
-import musicprofile2 from "../../public/images/talentpages/musicbg (2).png"
+import musicprofile from "../../public/images/talentpages/musicbg (1).webp"
+import musicprofile2 from "../../public/images/talentpages/musicbg (2).webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.webp"
-import Signature from "../../public/images/profile/signature.png"
+import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
 import MusicTypingText from '@/components/MusicTypingText'
 import TransitionEffect from '@/components/TransitionEffect'

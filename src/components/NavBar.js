@@ -31,7 +31,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
     const router = useRouter();
     return (
-        <button href={href} className={`${className} relative group my-2`} onClick={handleClick}>
+        <button title="Search" href={href} className={`${className} relative group my-2`} onClick={handleClick}>
             {title}
             <span className={`h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300  dark:bg-primary
             ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
@@ -56,7 +56,7 @@ const NavBar = () => {
 
 
 
-            <button className=' flex-col -ml-24 my-2 hidden lg:flex ' onClick={handleClick}>
+            <button title="Search"n className=' flex-col -ml-24 my-2 hidden lg:flex ' onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out  block h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm my-0.5  ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
@@ -111,7 +111,7 @@ const NavBar = () => {
                         <FacebookIcon />
                     </motion.a>
 
-                    <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
+                    <button title="Search" onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
                         {
                             mode === "dark" ? <SunIcon className={'fill-dark'} />
                                 : <MoonIcon className={"fill-dakr"} />
@@ -183,7 +183,7 @@ const NavBar = () => {
                                 whileHover={{ y: -3 }}
                                 whileTap={{ scale: 0.9 }}
                                 className='w-6 mr-4'>
-                                <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
+                                <button title="Search" onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
                                     {
                                         mode === "dark" ? <SunIcon className={'fill-dark'} />
                                             : <MoonIcon className={"fill-dakr"} />

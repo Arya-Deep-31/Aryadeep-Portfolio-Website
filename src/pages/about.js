@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
-import aboutPic from "../../public/images/profile/developer-pic-2.jpg"
+import aboutPic from "../../public/images/profile/developer-pic-2.webp"
 import Skills from '@/components/Skills'
 import {motion} from "framer-motion" ;
 import Experience from '@/components/Experience'

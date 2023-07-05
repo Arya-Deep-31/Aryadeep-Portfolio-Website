@@ -2,7 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.webp"
-import Signature from "../../public/images/profile/signature.png"
+import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
 import TypingText from '@/components/TypingText'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -82,13 +82,13 @@ export default function Home() {
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg' href="/" target='_blank'> My Resume </button>
+                    <button title="Search" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg' href="/" target='_blank'> My Resume </button>
 
 
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg ' href="/" target='_blank'> My Resume </button>
+                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg ' href="/" target='_blank'> My Resume </button>
 
 
                   </motion.div>
