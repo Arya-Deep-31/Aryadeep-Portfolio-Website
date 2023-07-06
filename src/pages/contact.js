@@ -26,7 +26,7 @@ const initState = { isLoading: false, error: "", values: initValues };
 
 
 
-const Contact = () => {
+const contact = () => {
 
 
 
@@ -209,4 +209,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default contact
