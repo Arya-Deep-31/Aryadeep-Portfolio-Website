@@ -30,50 +30,50 @@ const contact = () => {
 
 
 
-    const toast = useToast();
-    const [state, setState] = useState(initState);
-    const [touched, setTouched] = useState({});
+    // const toast = useToast();
+    // const [state, setState] = useState(initState);
+    // const [touched, setTouched] = useState({});
 
-    const { values, isLoading, error } = state;
+    // const { values, isLoading, error } = state;
 
-    const onBlur = ({ target }) =>
-        setTouched((prev) => ({ ...prev, [target.name]: true }));
+    // const onBlur = ({ target }) =>
+    //     setTouched((prev) => ({ ...prev, [target.name]: true }));
 
-    const handleChange = ({ target }) =>
-        setState((prev) => ({
-            ...prev,
-            values: {
-                ...prev.values,
-                [target.name]: target.value,
-            },
-        }));
+    // const handleChange = ({ target }) =>
+    //     setState((prev) => ({
+    //         ...prev,
+    //         values: {
+    //             ...prev.values,
+    //             [target.name]: target.value,
+    //         },
+    //     }));
 
 
 
-    const onSubmit = async () => {
-        setState((prev) => ({
-            ...prev,
-            isLoading: true,
-        }));
-        try {
-            await sendContactForm(values);
-            setTouched({});
-            setState(initState);
-            toast({
-                title: "Message sent to Aryadeep Gogoi",
-                status: "success",
-                duration: 2000,
-                position: "top",
+    // const onSubmit = async () => {
+    //     setState((prev) => ({
+    //         ...prev,
+    //         isLoading: true,
+    //     }));
+    //     try {
+    //         await sendContactForm(values);
+    //         setTouched({});
+    //         setState(initState);
+    //         toast({
+    //             title: "Message sent to Aryadeep Gogoi",
+    //             status: "success",
+    //             duration: 2000,
+    //             position: "top",
                 
-            });
-        } catch (error) {
-            setState((prev) => ({
-                ...prev,
-                isLoading: false,
-                error: error.message,
-            }));
-        }
-    };
+    //         });
+    //     } catch (error) {
+    //         setState((prev) => ({
+    //             ...prev,
+    //             isLoading: false,
+    //             error: error.message,
+    //         }));
+    //     }
+    // };
 
 
 
