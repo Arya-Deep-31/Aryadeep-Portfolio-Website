@@ -5,6 +5,13 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Link from 'next/link'
 import project1 from "../../public/images/projects/project1.webp"
+import ggui from "../../public/images/projects/guidancegridproject.webp"
+import agrishareui from "../../public/images/projects/Agrishare.webp"
+import cardio from "../../public/images/projects/cardiocare.webp"
+import meeatui from "../../public/images/projects/meeat.webp"
+import posuaui from "../../public/images/projects/posua.webp"
+import trinetra from "../../public/images/projects/trinetra.webp"
+import ecs from "../../public/images/projects/ecs.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -16,7 +23,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
             <Link className='w-1/2 overflow-hidden rounded-lg lg:w-full lg:mb-8 sm:mb-4' href={link} target='_blank'>
-                <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image src={img} alt={title} className='w-full h-auto ' /></motion.div>
+                <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={90} src={img} alt={title} className='w-full h-auto ' /></motion.div>
 
 
             </Link>
@@ -61,7 +68,7 @@ const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
                 </div>
             </div>
             <Link className='w-1/2 overflow-hidden rounded-lg lg:w-full' href={link} target='_blank'>
-            <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image src={img} alt={title} className='w-full h-auto ' /></motion.div>
+            <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={90} src={img} alt={title} className='w-full h-auto ' /></motion.div>
 
 
             </Link>
@@ -120,8 +127,8 @@ const projects = () => {
                                 <ProjectDetails
 
                                     title="CardioCare"
-                                    type="Project 3"
-                                    img={project1}
+                                    type="Team Project"
+                                    img={cardio}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://cardio-care.netlify.app/"
                                     github="/"
@@ -146,10 +153,10 @@ const projects = () => {
                                 <ProjectDetails
 
                                     title="UI/UX | GUIDANCE GRID "
-                                    type="Project 5"
-                                    img={project1}
+                                    type="Team Project"
+                                    img={ggui}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/file/l9XeySiNIo6PAzqfx68ecd/Guidance-Grid?type=design&node-id=0%3A1&mode=design&t=cDaLMzqkVRNY3qJx-1"
                                     github="/"
 
                                 />
@@ -158,10 +165,10 @@ const projects = () => {
                                 <ProjectDetails2
 
                                     title="UI/UX | POSUA 2023"
-                                    type="Project 6"
-                                    img={project1}
+                                    type="Team Project"
+                                    img={posuaui}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/file/XN4CiqL64oeZ897uWEWF4N/POSUA-2023?type=design&node-id=0%3A1&mode=design&t=U75lGJZCb2wnilJ0-1"
                                     github="/"
 
                                 />
@@ -171,10 +178,10 @@ const projects = () => {
                                 <ProjectDetails
 
                                     title="UI/UX | AgriShare"
-                                    type="Project 7"
-                                    img={project1}
+                                    type="Individual Project"
+                                    img={agrishareui}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/file/1AKO8jGB04awSvhasbUaW5/AgriShare?type=design&node-id=0%3A1&mode=design&t=UDOfptMPO8WjtTEN-1"
                                     github="/"
 
                                 />
@@ -183,10 +190,10 @@ const projects = () => {
                                 <ProjectDetails2
 
                                     title="UI/UX | Me-Eat App"
-                                    type="Project 8"
-                                    img={project1}
+                                    type="Individual Project"
+                                    img={meeatui}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/proto/gKjSzktK2uOgoFFhZBwFjP/me-eat-app?page-id=0%3A1&node-id=71-285&starting-point-node-id=71%3A277&mode=design&t=cvCM0K7uorZ7BO53-1"
                                     github="/"
 
                                 />
@@ -196,10 +203,10 @@ const projects = () => {
                                 <ProjectDetails
 
                                     title="UI/UX | ECS WEBSITE2022"
-                                    type="Project 9"
-                                    img={project1}
+                                    type="Team Project"
+                                    img={ecs}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/file/pfXjOMgyrZIpumZ1mDqAg0/Ecs-website?type=design&node-id=0%3A1&mode=design&t=IwBPhPkFWT4Jb0hc-1"
                                     github="/"
 
                                 />
@@ -208,10 +215,10 @@ const projects = () => {
                                 <ProjectDetails2
 
                                     title="UI/UX | TrinetraGeeks"
-                                    type="Project 10"
-                                    img={project1}
+                                    type="Individual Project"
+                                    img={trinetra}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                    link="https://www.posua23.in/"
+                                    link="https://www.figma.com/file/aDg1wRV4uQyAvusdUVK1cM/TrinetraGeeks?type=design&node-id=0%3A1&mode=design&t=W5WOeJmJyrjLAxQw-1"
                                     github="/"
 
                                 />
