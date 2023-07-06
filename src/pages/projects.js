@@ -19,7 +19,7 @@ import TransitionEffect from '@/components/TransitionEffect'
 
 
 
-const ProjectDetails = ({ title, type, summary, img, link, github }) => {
+const projectDetails = ({ title, type, summary, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
             <Link className='w-1/2 overflow-hidden rounded-lg lg:w-full lg:mb-8 sm:mb-4' href={link} target='_blank'>
@@ -49,7 +49,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 }
 
 
-const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
+const projectDetails2 = ({ title, type, summary, img, link, github }) => {
     return (
         <div className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col lg:p-8 xs:p-4'>
              <div className='w-1/2 flex flex-col items-start justify-between pl-8 lg:w-full  lg:mb-8 sm:mb-8'>
@@ -100,7 +100,7 @@ const projects = () => {
 
                         <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                             <div className='col-span-12  '>
-                                <ProjectDetails
+                                <projectDetails
 
                                     title=" "
                                     type="Project 1"
@@ -112,7 +112,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <projectDetails2
 
                                     title="Posua 2023 Website"
                                     type="Project 2"
@@ -124,7 +124,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <projectDetails
 
                                     title="CardioCare"
                                     type="Team Project"
@@ -136,7 +136,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <projectDetails2
 
                                     title="Personal Portfolio Project"
                                     type="Project 4"
@@ -150,7 +150,7 @@ const projects = () => {
 
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <projectDetails
 
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
@@ -162,7 +162,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <projectDetails2
 
                                     title="UI/UX | POSUA 2023"
                                     type="Team Project"
@@ -175,7 +175,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <projectDetails
 
                                     title="UI/UX | AgriShare"
                                     type="Individual Project"
@@ -187,7 +187,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <projectDetails2
 
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
@@ -200,7 +200,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <projectDetails
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
@@ -212,7 +212,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <projectDetails2
 
                                     title="UI/UX | TrinetraGeeks"
                                     type="Individual Project"
