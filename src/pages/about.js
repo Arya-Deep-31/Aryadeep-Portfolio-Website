@@ -42,12 +42,12 @@ const about = () => {
 
 
                             <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
-                                <Image src={aboutPic2} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <Image src={aboutPic2} quality={80} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
-                            <div className='col-span-3 flex flex-col items-start justify-start mt-6'>
+                            <div className='col-span-3 flex flex-col items-center justify-center mt-6'>
 
-                                <p className='pb-6'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
+                                <p className='pb-6 flex'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
 
                                     I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in software development. Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
 
@@ -63,7 +63,7 @@ const about = () => {
 
 
                             <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary justify-end'>
-                                <Image src={aboutPic1} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <Image src={aboutPic1} quality={80} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
                         </div>

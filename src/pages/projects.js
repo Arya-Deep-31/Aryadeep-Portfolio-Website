@@ -23,7 +23,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
             <Link className='w-1/2 overflow-hidden rounded-lg lg:w-full lg:mb-8 sm:mb-4' href={link} target='_blank'>
-                <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={80} src={img} alt={title} className='w-full h-auto ' /></motion.div>
+                <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={60} src={img} alt={title} className='w-full h-auto ' /></motion.div>
 
 
             </Link>
@@ -68,7 +68,7 @@ const ProjectDetails2 = ({ title, type, summary, img, link, github }) => {
                 </div>
             </div>
             <Link className='w-1/2 overflow-hidden rounded-lg lg:w-full' href={link} target='_blank'>
-            <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={80} src={img} alt={title} className='w-full h-auto ' /></motion.div>
+            <motion.div whileHover={{scale:1.1}} transition={{duration : 1}}><Image quality={60} src={img} alt={title} className='w-full h-auto ' /></motion.div>
 
 
             </Link>
