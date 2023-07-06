@@ -191,7 +191,7 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
 
 
     return (
-        <li ref={ref} className='my-8  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        <li ref={ref} className='my-12  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
 
             <TrackIcon reference={ref} />
             <div>

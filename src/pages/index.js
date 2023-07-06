@@ -99,7 +99,7 @@ export default function Home() {
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 2 </button>
+                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/https://drive.google.com/drive/folders/1-e0z7igX33OZ2Ovg-De4zNt3la6ZLPLF" target='_blank'> My Resume 2 </button>
 
 
                   </motion.div>

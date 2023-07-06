@@ -83,7 +83,7 @@ const WordRoom = () => {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} alt="Music Profile" className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} alt="Music Profile" className="opacity-25 absolute -mt-20 xl:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>
@@ -103,7 +103,7 @@ const WordRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 ml-16 xl:ml-10 lg:ml-6'>Salut,felllow wordsmiths</span>
+                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-3xl sm:text-2xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 ml-16 xl:ml-10 lg:ml-6'>Salut,felllow wordsmiths</span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />
