@@ -72,7 +72,7 @@ const MusicRoom = () => {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} alt="Music Profile" className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} alt="Music Profile" className="opacity-50 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>

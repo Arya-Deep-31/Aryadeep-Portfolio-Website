@@ -6,7 +6,7 @@ import musicprofile2 from "../../public/images/talentpages/musicbg (2).webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.webp"
+import wordcraft from "../../public/images/profile/wordcraft.webp"
 import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
 import MusicTypingText from '@/components/MusicTypingText'
@@ -89,9 +89,9 @@ const WordRoom = () => {
                 <main className='flex w-full flex-col items-center justify-center '>
 
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
-                        <Layout className=' min-h-screen '>
+                        <Layout className=' min-h-screen  '>
                             <AnimatedText text="Welcome" className=' dark:!text-light/90' />
-                            <AnimatedText text="To Symphonic Verse" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-8 sm:!text-2xl' />
+                            <AnimatedText text="To Canvas Gallery" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-16  sm:!text-2xl' />
 
 
 
@@ -103,7 +103,7 @@ const WordRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! Rhythm lovers </span>
+                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 ml-16 xl:ml-10 lg:ml-6'>Salut,felllow wordsmiths</span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />
@@ -111,7 +111,7 @@ const WordRoom = () => {
                                     </div>
 
 
-                                    <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate about</span>
+                                    <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate reading</span>
 
                                     <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl'>
                                         <TypewriterComponent options={{
@@ -134,8 +134,8 @@ const WordRoom = () => {
 
 
 
-                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
-                                    <Image src={profilePic} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <div className='col-span-4 w-[80%] ml-20 relative mb-2 p-4 xl:ml-16 lg:ml-16 sm:ml-12 xs:ml-10 justify-end  md:p-0.5 sm:p-0 '>
+                                    <Image src={wordcraft} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 
 
@@ -143,9 +143,9 @@ const WordRoom = () => {
 
 
 
-                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
+                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'> While I may not be a professional writer, my passion for crafting normal poems and engaging content drives me to explore the world of literature and express myself through written expression.</span>
+                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>With each poem and piece of content I create, I strive to evoke emotions, provoke thoughts, and spark conversations. </span>
+                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>I find inspiration in the simplicity of life and believe that there is extraordinary beauty to be found in the ordinary.</span>
 
 
 
@@ -160,15 +160,6 @@ const WordRoom = () => {
 
 
                           
-
-
-
-
-
-
-
-
-
 
 
 
