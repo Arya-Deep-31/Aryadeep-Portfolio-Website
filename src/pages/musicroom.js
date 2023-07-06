@@ -9,11 +9,10 @@ import Image from 'next/image'
 import profilePic from "../../public/images/profile/developer-pic-1.webp"
 import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
-import MusicTypingText from '@/components/MusicTypingText'
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import Link from 'next/link'
-import { HtmlIcon, LinkedInIcon, CssIcon, ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon, TailwindCssIcon, NodejsIcon, CanvaIcon, LeetcodeIcon, DribbbleIcon } from '../components/Icons';
+import TypewriterComponent from 'typewriter-effect'
 
 
 
@@ -103,8 +102,20 @@ const MusicRoom = () => {
 
                                     <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate about</span>
 
-                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:text-3xl'>typical</span>
-
+                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl'>
+                                        <TypewriterComponent options={{
+                                            autoStart: true,
+                                            loop: true,
+                                            delay: 40,
+                                            strings: [
+                                                "Instruments..",
+                                                "Flute",
+                                                "Keyboard..",
+                                                "Guitar...",
+                                                "Cajon",
+                                            ],
+                                        }} />
+                                    </span>
 
                                 </div>
 
@@ -137,7 +148,7 @@ const MusicRoom = () => {
 
 
 
-                          
+
 
 
 
