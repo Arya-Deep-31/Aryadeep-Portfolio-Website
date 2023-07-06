@@ -93,13 +93,13 @@ export default function Home() {
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 1</button>
+                    <a title="Original Resume" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 1</a>
 
 
                   </motion.div>
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <button title="Search" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/https://drive.google.com/drive/folders/1-e0z7igX33OZ2Ovg-De4zNt3la6ZLPLF" target='_blank'> My Resume 2 </button>
+                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="UI/UX Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume 2 </a>
 
 
                   </motion.div>
