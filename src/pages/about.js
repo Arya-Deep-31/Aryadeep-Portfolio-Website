@@ -3,7 +3,8 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
-import aboutPic from "../../public/images/profile/developer-pic-2.webp"
+import aboutPic1 from "../../public/images/profile/aboutPic1.webp"
+import aboutPic2 from "../../public/images/profile/aboutPic2.webp"
 import Skills from '@/components/Skills'
 import {motion} from "framer-motion" ;
 import Experience from '@/components/Experience'
@@ -41,12 +42,12 @@ const about = () => {
                             
 
                             <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
-                                <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <Image src={aboutPic2} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
                             <div className='col-span-3 flex flex-col items-start justify-start mt-6'>
 
-                                <p className='pb-3'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
+                                <p className='pb-6'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
 
 I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in software development. Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
 
@@ -54,7 +55,7 @@ I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technolog
 
                                 </p>
 
-                                <p className='pb-4'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
+                                <p className='pb-6'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
 </p>
                                 <p className='pb-2'> Stay inspired, and let's create something remarkable together!</p>
 
@@ -62,7 +63,7 @@ I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technolog
 
 
                             <div className='col-span-3 w-full relative rounded-2xl border-2 ml-2 dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary justify-end'>
-                                <Image src={aboutPic} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <Image src={aboutPic1} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
                         </div>

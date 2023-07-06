@@ -178,7 +178,7 @@ export const VscodeIcon = (className, ...rest) => (
 
 
 export const TailwindCssIcon = (className, ...rest) => (
-  <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" viewBox="0  0 512 512"
+  <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" viewBox="0 0 512 512"
     {...rest}
     className={`w-28 h-32 ${className}`}>
     <defs>
