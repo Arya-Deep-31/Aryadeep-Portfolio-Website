@@ -2,7 +2,7 @@
 
 
 import musicprofile from "../../public/images/talentpages/musicbg (1).webp"
-import musicprofile2 from "../../public/images/talentpages/musicbg (2).webp"
+import musicprofile2 from "../../public/images/talentpages/craftgallerybg.webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -63,7 +63,7 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 
 
-const CanvasRoom = ()  => {
+const CanvasRoom = () => {
     return (
         <>
             <Head >
@@ -81,11 +81,11 @@ const CanvasRoom = ()  => {
 
 
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
-
-
-                <Image  alt="Music Profile" src={musicprofile2} className="opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} quality={50} alt="Music Profile" className="h-full opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
+
+                
                 <main className='flex w-full flex-col items-center justify-center '>
 
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
@@ -138,13 +138,13 @@ const CanvasRoom = ()  => {
                                 </div>
 
 
-                                <div className='col-span-2  w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
+                                <div className='col-span-2 -mt-20  w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
 
 
 
-                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
+                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>From a young age, I discovered my innate connection with art and design using various mediums.</span>
+                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>With each piece I create, my aim is to convey a unique narrative, spark imagination, and invite viewers to experience the magic around and beyond !</span>
+                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>I look forward to connecting with fellow artists, designers, and individuals who share a love for art and design. Let's embark on a visual journey together and create something extraordinary.</span>
 
 
 
@@ -158,7 +158,7 @@ const CanvasRoom = ()  => {
 
 
 
-                          
+
 
 
 
