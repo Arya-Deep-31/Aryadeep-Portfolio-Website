@@ -219,8 +219,8 @@ import TransitionEffect from '@/components/TransitionEffect';
 
 const Contact = () => {
     const handleClick2 = () => {
-        
-        console.log("Thank you for connecting, I'll get back to you soon");
+
+        alert("Thank you for connecting, I'll get back to you soon");
     };
     const form = useRef();
 

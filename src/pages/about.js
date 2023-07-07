@@ -49,7 +49,7 @@ const about = () => {
 
                                 <p className='pb-6 flex'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
 
-                                    I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in software development. Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
+                                    I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in Web Development and UI/UX . Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
 
 
 

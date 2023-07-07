@@ -193,7 +193,7 @@ const projects = () => {
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
                                     img={meeatui}
-                                    summary="This was a app protoype for Pitch Your Innovation under Srijan 3.0 pitched by Sameer Zaidi . The UI Design is kept simple and the protoype includes easy user flow . The app helps you get your raw meat chopped at your own choice from nearby connected shops to your home. The UI includes light brown shades with a designed logo."
+                                    summary="This was a app protoype for Pitch Your Innovation under Srijan 3.0 pitched by my colleague Sameer Zaidi . The UI Design is kept simple and the protoype includes easy user flow . The app helps you get your raw meat chopped at your own choice from nearby connected shops to your home. The UI includes light brown shades with a designed logo."
                                     link="https://www.figma.com/proto/gKjSzktK2uOgoFFhZBwFjP/me-eat-app?page-id=0%3A1&node-id=71-285&starting-point-node-id=71%3A277&mode=design&t=cvCM0K7uorZ7BO53-1"
                                     github="/"
 
