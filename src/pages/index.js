@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.webp"
+import profilePic from "../../public/images/profile/profilePic.webp"
 import Signature from "../../public/images/profile/signature.webp"
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xl:ml-2 xs:-ml-4 xs:-mt-4'>
+            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xl:ml-2 xs:-ml-4 xs:-mt-5'>
 
 
 
@@ -69,8 +69,8 @@ export default function Home() {
 
 
 
-              <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:ml-0 xs:-mt-8 xs:m-0'>
-                <Image src={profilePic} quality={20} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+              <div className='col-span-4 w-full relative -mb-8 xl:-mb-4 lg:mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:ml-0 xs:-mt-8 xs:m-0 xs:-ml-2'>
+                <Image src={profilePic} quality={80} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
               </div>
 
 
@@ -92,14 +92,10 @@ export default function Home() {
                 </span>
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
-                  <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <a title="Original Resume" className='mr-4 -ml-6 rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' href="/" target='_blank'> My Resume 1</a>
-
-
-                  </motion.div>
+                  
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="UI/UX Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume 2 </a>
+                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="UI/UX Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume  </a>
 
 
                   </motion.div>
