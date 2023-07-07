@@ -11,6 +11,7 @@ import cardio from "../../public/images/projects/cardiocare.webp"
 import meeatui from "../../public/images/projects/meeat.webp"
 import posuaui from "../../public/images/projects/posua.webp"
 import trinetra from "../../public/images/projects/trinetra.webp"
+import portfolio from "../../public/images/projects/portfolio.webp"
 import ecs from "../../public/images/projects/ecs.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
@@ -139,8 +140,8 @@ const projects = () => {
                                 <ProjectDetails2
 
                                     title="Personal Portfolio Project"
-                                    type="Project 4"
-                                    img={project1}
+                                    type="Individual Project"
+                                    img={portfolio}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://aryadeep-portfolio-website.vercel.app/"
                                     github="/"

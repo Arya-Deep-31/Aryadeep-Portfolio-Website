@@ -111,7 +111,7 @@ const WordRoom = () => {
                                     </div>
 
 
-                                    <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate reading</span>
+                                    <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate writing</span>
 
                                     <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl'>
                                         <TypewriterComponent options={{
@@ -121,8 +121,8 @@ const WordRoom = () => {
                                             strings: [
                                                 "Fiction..",
                                                 "Thriler",
-                                                "Mystery.",
-                                                "Memoir...",
+                                                "Poetry...",
+                                                "Prose...",
                                             ],
                                         }} />
                                     </span>

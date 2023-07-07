@@ -95,7 +95,7 @@ export default function Home() {
                   
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="UI/UX Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume  </a>
+                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="Download Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume  </a>
 
 
                   </motion.div>
