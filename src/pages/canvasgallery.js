@@ -13,18 +13,7 @@ import MusicTypingText from '@/components/MusicTypingText'
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import Link from 'next/link'
-import { HtmlIcon, LinkedInIcon, CssIcon, ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon, TailwindCssIcon, NodejsIcon, CanvaIcon, LeetcodeIcon, DribbbleIcon } from '../components/Icons';
 import TypewriterComponent from 'typewriter-effect'
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -68,7 +57,7 @@ const CanvasRoom = () => {
         <>
             <Head >
                 <title>Aryadeep canvas room</title>
-                <meta name="description" content="home page" />
+                <meta name="canvas gallery" content="design page" />
 
             </Head>
 
@@ -133,7 +122,7 @@ const CanvasRoom = () => {
 
 
 
-                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
+                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:-mt-14 mb-4'>
                                     <Image src={profilePic} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 

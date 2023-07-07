@@ -118,7 +118,7 @@ const projects = () => {
                                     title="Posua 2023 Website"
                                     type="Team Project"
                                     img={project1}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Posua the spring fest of NITS , spreads out exuberance all around rejuvenating the land of culture. Posua is not just a fiesta but an emotional journey kalaediscope of colors and sound of Assam. It was an amazing expereince working with Seniors and the Team : Partha ,Himangshu , Jaydeep ,Pragya , Hrishikesh , Aditya , Jacinth and Maharnav . Happy Exploriing :)"
                                     link="https://www.posua23.in/"
                                     github="/"
 
@@ -139,10 +139,10 @@ const projects = () => {
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
-                                    title="Personal Portfolio Project"
+                                    title="My Personal Portfolio"
                                     type="Individual Project"
                                     img={portfolio}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used iin this project are Next JS , Tailwind CSS and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
                                     link="https://aryadeep-portfolio-website.vercel.app/"
                                     github="/"
 
@@ -156,7 +156,7 @@ const projects = () => {
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
                                     img={ggui}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary=" Crafted with creativity and precision with my teammate Jacinth Mahanta | ECE under the esteemed umbrella of GDSC NITS , this is the UI Design of Guidance Grid which is a assitance cum blog site . The Site is still under construction"
                                     link="https://www.figma.com/file/l9XeySiNIo6PAzqfx68ecd/Guidance-Grid?type=design&node-id=0%3A1&mode=design&t=cDaLMzqkVRNY3qJx-1"
                                     github="/"
 
@@ -168,7 +168,7 @@ const projects = () => {
                                     title="UI/UX | POSUA 2023"
                                     type="Team Project"
                                     img={posuaui}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Posua the spring fest of NITS , spreads out exuberance all around rejuvenating the land of culture. Through this UI Design , I along with my team mates Jacinth Mahanta , Maharnav Deka and Pragya Annesha Baruah bring to you the UI work of this Fest highlighting the plethora of events and diversity herewith . Happy Visiting :)"
                                     link="https://www.figma.com/file/XN4CiqL64oeZ897uWEWF4N/POSUA-2023?type=design&node-id=0%3A1&mode=design&t=U75lGJZCb2wnilJ0-1"
                                     github="/"
 
@@ -193,7 +193,7 @@ const projects = () => {
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
                                     img={meeatui}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="This was a app protoype for Pitch Your Innovation under Srijan 3.0 pitched by Sameer Zaidi . The UI Design is kept simple and the protoype includes easy user flow . The app helps you get your raw meat chopped at your own choice from nearby connected shops to your home. The UI includes light brown shades with a designed logo."
                                     link="https://www.figma.com/proto/gKjSzktK2uOgoFFhZBwFjP/me-eat-app?page-id=0%3A1&node-id=71-285&starting-point-node-id=71%3A277&mode=design&t=cvCM0K7uorZ7BO53-1"
                                     github="/"
 
@@ -206,7 +206,7 @@ const projects = () => {
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
                                     img={ecs}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="A week over made project for the ECS Website of 2022 , this team project along with Jacinth Mahanta and Maharnav Deka uses gradient feature from top to bottom . This is another piece of work under my post as Junior Media and Graphics Design Member at ECS"
                                     link="https://www.figma.com/file/pfXjOMgyrZIpumZ1mDqAg0/Ecs-website?type=design&node-id=0%3A1&mode=design&t=IwBPhPkFWT4Jb0hc-1"
                                     github="/"
 
@@ -218,7 +218,7 @@ const projects = () => {
                                     title="UI/UX | TrinetraGeeks"
                                     type="Individual Project"
                                     img={trinetra}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="A second secured project under FAST WEB hackathon hosted by ECS , NIT Silchar , with a fine simple hue of blue for all readers , a mini e-library Ui Design where you can spend your leisure time with enabled dark mode . This is one of the first projects of my UI/UX Career .The elements used are still minimalistic "
                                     link="https://www.figma.com/file/aDg1wRV4uQyAvusdUVK1cM/TrinetraGeeks?type=design&node-id=0%3A1&mode=design&t=W5WOeJmJyrjLAxQw-1"
                                     github="/"
 
