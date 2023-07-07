@@ -1,12 +1,10 @@
 
-
-
 import musicprofile from "../../public/images/talentpages/musicbg (1).webp"
 import musicprofile2 from "../../public/images/talentpages/musicbg (2).webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.webp"
+import profilePic from "../../public/images/profile/musicroom.webp"
 import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -72,7 +70,7 @@ const MusicRoom = () => {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} alt="Music Profile" className="opacity-50 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} quality={50} alt="Music Profile" className="h-full opacity-30 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>
@@ -123,7 +121,7 @@ const MusicRoom = () => {
 
 
 
-                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 '>
+                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 md:-mt-8'>
                                     <Image src={profilePic} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 
@@ -132,9 +130,9 @@ const MusicRoom = () => {
 
 
 
-                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionat passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passnate about passionate about passionate about passionate about passionate aboutabout</span>
-                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>passionate  passionate about passionate assionate about passionate about passionate aboutabout</span>
+                                    <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>From an early age, I discovered my innate connection with music and the joy it brings to my life. As I began my musical journey, I quickly gravitated towards the piano, captivated by its versatility.</span>
+                                    <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>As an avid learner, I have delved into various genres, including classical, contemporary, and pop, always seeking to broaden my musical horizons</span>
+                                    <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>In addition to the piano, I am passionate playing the guitar .My musical Journey is under construction and shall be here soon</span>
 
 
 

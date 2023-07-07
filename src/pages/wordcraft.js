@@ -2,7 +2,7 @@
 
 
 import musicprofile from "../../public/images/talentpages/musicbg (1).webp"
-import musicprofile2 from "../../public/images/talentpages/musicbg (2).webp"
+import musicprofile2 from "../../public/images/talentpages/wordcraftbg.webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -83,7 +83,7 @@ const WordRoom = () => {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} alt="Music Profile" className="opacity-25 absolute -mt-20 xl:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} quality={60} alt="Music Profile" className="h-full w-full opacity-30 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>
@@ -159,7 +159,7 @@ const WordRoom = () => {
 
 
 
-                          
+
 
 
 
