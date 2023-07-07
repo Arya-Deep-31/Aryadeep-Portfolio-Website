@@ -6,7 +6,7 @@ import musicprofile2 from "../../public/images/talentpages/craftgallerybg.webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.webp"
+import profilePic from "../../public/images/profile/artprofile.webp"
 import Signature from "../../public/images/profile/signature.webp"
 import AnimatedText from '@/components/AnimatedText'
 import MusicTypingText from '@/components/MusicTypingText'

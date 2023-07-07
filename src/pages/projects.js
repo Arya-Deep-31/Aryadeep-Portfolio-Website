@@ -116,7 +116,7 @@ const projects = () => {
                                 <ProjectDetails2
 
                                     title="Posua 2023 Website"
-                                    type="Project 2"
+                                    type="Team Project"
                                     img={project1}
                                     summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
                                     link="https://www.posua23.in/"
