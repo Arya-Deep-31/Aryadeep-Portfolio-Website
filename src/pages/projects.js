@@ -104,9 +104,9 @@ const projects = () => {
                                 <ProjectDetails
 
                                     title=" "
-                                    type="Project 1"
+                                    type="Team Project"
                                     img={project1}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Under Construction"
                                     link="https://www.posua23.in/"
                                     github="/"
 
@@ -130,7 +130,7 @@ const projects = () => {
                                     title="CardioCare"
                                     type="Team Project"
                                     img={cardio}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Submitted for GDSC Solution Challenge 2023 CardioCare is a Progressive Web App which is targetted on the Health UN Goal.The project is still under construction with my team mates Partha Pratim Deka and Pragya Annesha Baruah. Techstacks include : Arduino ,Firebase , React , SCSS , Figma ,etc .Happy Caring :)"
                                     link="https://cardio-care.netlify.app/"
                                     github="/"
 
@@ -142,7 +142,7 @@ const projects = () => {
                                     title="My Personal Portfolio"
                                     type="Individual Project"
                                     img={portfolio}
-                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used iin this project are Next JS , Tailwind CSS and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
+                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used iin this project are Next JS , Tailwind CSS , EmailJS, Figma and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
                                     link="https://aryadeep-portfolio-website.vercel.app/"
                                     github="/"
 
@@ -156,7 +156,7 @@ const projects = () => {
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
                                     img={ggui}
-                                    summary=" Crafted with creativity and precision with my teammate Jacinth Mahanta | ECE under the esteemed umbrella of GDSC NITS , this is the UI Design of Guidance Grid which is a assitance cum blog site . The Site is still under construction"
+                                    summary=" Crafted with creativity and precision with my teammate Jacinth Mahanta | ECE under the esteemed umbrella of GDSC NITS , this is the UI Design of Guidance Grid which is a assitance cum blog site . The Site is still under construction. Happy Guiding :)"
                                     link="https://www.figma.com/file/l9XeySiNIo6PAzqfx68ecd/Guidance-Grid?type=design&node-id=0%3A1&mode=design&t=cDaLMzqkVRNY3qJx-1"
                                     github="/"
 
@@ -181,7 +181,7 @@ const projects = () => {
                                     title="UI/UX | AgriShare"
                                     type="Individual Project"
                                     img={agrishareui}
-                                    summary="I'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  goi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Goggoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  GogGogoi ryadeep  GogoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                    summary="Pitched By me AgriShare-Agreed to connect is a one to one connection site where the NGOs or the student organizations can connect directly to the local farmers in buying or helping them  sell their surplus crop .The UI Design is kept simple with a thoughtful approach to connect the sides. The project is still under consruction by the Web Team. Happy Helping :)"
                                     link="https://www.figma.com/file/1AKO8jGB04awSvhasbUaW5/AgriShare?type=design&node-id=0%3A1&mode=design&t=UDOfptMPO8WjtTEN-1"
                                     github="/"
 

@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
             <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex flex-row justify-around items-start p-5 sm:text-base  md:flex-col md:items-center justify-between sm:items-center justify-between '>
                 <div className='p-5 '>
-                    <ul>
+                    <div>
                         <div className='text-light font-bold pb-4 ml-12'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'>is at </span>
                         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
 
                         </div>
 
-                    </ul>
+                    </div>
 
                     <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4'>
                         Mail <span className='text-light'> me at </span>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
 
                 <div className='pt-6 text-light -ml-10'>
-                    <ul>
+                    <div>
                         <div className='text-light font-bold pb-2 flex flex-col items-center justify-center sm:ml-8  '>
                         <motion.a   whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2'> Home  </motion.a>
@@ -77,12 +77,12 @@ const Footer = () => {
                                 whileTap={{ scale: 0.9 }} href='/contact' className='text-primary  pb-4 '> Contact </motion.a>
 
                         </div>
-                    </ul>
+                    </div>
 
                 </div>
 
                 <div className='p-4 text-light'>
-                    <ul>
+                    <div>
                         <div className='text-light font-bold pb-2'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'> at </span>
                         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                             
 
                         </motion.div>
-                    </ul>
+                    </div>
                 </div>
             </footer>
 

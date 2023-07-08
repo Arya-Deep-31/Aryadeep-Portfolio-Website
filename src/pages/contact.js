@@ -217,6 +217,7 @@ import TransitionEffect from '@/components/TransitionEffect';
 
 
 
+
 const Contact = () => {
     const handleClick2 = () => {
 

@@ -242,7 +242,7 @@ const Experience = () => {
 
 
 
-                <ul className='w-full flex flex-col items-start justify-between '>
+                <div className='w-full flex flex-col items-start justify-between '>
                     <Details
 
                         position="General Secretary"
@@ -301,44 +301,40 @@ const Experience = () => {
 
                     />
 
-<Details
+                    <Details
 
-position="Content Associate" society="E-Cell , NITS"
-companyLink=""
-time="June 2023-Present" address="Silchar ,Assam, India"
-work="As the Content Associate in the E-Cell, my role was to generate compelling and informative content that promotes entrepreneurship and engages our target audience. We had different modules for which contents were created accordingly. By providing market insights, and fostering community engagement, we aimed to amplify the voice of entrepreneurship and cultivate a culture of innovation and entrepreneurship at our institution.
+                        position="Content Associate" society="E-Cell , NITS"
+                        companyLink=""
+                        time="June 2023-Present" address="Silchar ,Assam, India"
+                        work="As the Content Associate in the E-Cell, my role was to generate compelling and informative content that promotes entrepreneurship and engages our target audience. We had different modules for which contents were created accordingly. By providing market insights, and fostering community engagement, we aimed to amplify the voice of entrepreneurship and cultivate a culture of innovation and entrepreneurship at our institution."
 
-"
-
-/>
+                    />
 
 
-<Details
+                    <Details
 
-position="Junior Executive"
-society="NITS ECO CLUB"
-companyLink=""
-time="June 2023-Present" address="Silchar ,Assam, India"
-work="As a Junior Executive in NITS Eco Club, I am dedicated to making a positive impact on the environment and promoting sustainable practices within our community. I actively participated in organizing and implementing various eco-friendly initiatives, such as tree planting drives, recycling campaigns, and awareness campaigns on renewable energy and waste management. Also worked as a content and design member."
-
-
-/>
-
-<Details
-
-position="Volunteer" society="Robin Hood Army"
-companyLink=""
-time="April 2022-Present" address="Silchar ,Assam, India"
-work=" As a volunteer in the Robin Hood Army, I am committed to fighting hunger and lack of education in our society. We participate in food drives, where we collect surplus food from donors and distribute it to those in need. By dedicating our efforts, we contribute minimal to the noble cause of education and basic need of food.
-
-"
+                        position="Junior Executive"
+                        society="NITS ECO CLUB"
+                        companyLink=""
+                        time="June 2023-Present" address="Silchar ,Assam, India"
+                        work="As a Junior Executive in NITS Eco Club, I am dedicated to making a positive impact on the environment and promoting sustainable practices within our community. I actively participated in organizing and implementing various eco-friendly initiatives, such as tree planting drives, recycling campaigns, etc"
 
 
-/>
+                    />
+
+                    <Details
+
+                        position="Volunteer" society="Robin Hood Army"
+                        companyLink=""
+                        time="April 2022-Present" address="Silchar ,Assam, India"
+                        work=" As a volunteer in the Robin Hood Army, I am committed to fighting hunger and lack of education in our society. We participate in food drives, where we collect surplus food from donors and distribute it to those in need. By dedicating our efforts, we contribute minimal to the noble cause of education and basic need of food."
+
+
+                    />
 
 
 
-                </ul>
+                </div>
 
 
             </div>

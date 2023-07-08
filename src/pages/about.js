@@ -42,7 +42,7 @@ const about = () => {
 
 
                             <div className='col-span-3 w-[80%] p-6 relative rounded-2xl border-2 ml-2 sm:p-2 lg:w-full dark:gradient-background border-solid border-dark/30 bg-light p-4 dark:bg-primaryDark dark:border-primary  justify-end'>
-                                <Image src={aboutPic2} quality={80} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
+                                <Image src={aboutPic2} quality={80} priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                             </div>
 
                             <div className='col-span-3 flex flex-col items-center justify-center mt-6'>
