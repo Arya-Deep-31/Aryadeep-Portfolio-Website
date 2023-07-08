@@ -219,14 +219,26 @@ import TransitionEffect from '@/components/TransitionEffect';
 
 
 const Contact = () => {
-    const handleClick2 = () => {
 
-        alert("Thank you for connecting, I'll get back to you soon");
-    };
+
+
+
+
+
+
+
+
+
+
     const form = useRef();
+    const handleClick2 = () => {
+        alert("Please Wait");
+
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
+
 
         emailjs
             .sendForm(
@@ -234,13 +246,17 @@ const Contact = () => {
                 "template_vctzpvh",
                 form.current,
                 "mys_0toZYUFIW7n78"
+
             )
+
             .then(
                 (result) => {
-                    console.log(result.text);
+                    alert("Thank you for connecting, I'll get back to you soon");
+
+
                 },
                 (error) => {
-                    console.log(error.text);
+                    console.log("Please fill in all fields");
                 }
             );
 
@@ -271,7 +287,7 @@ const Contact = () => {
                         <section id="contact" className='w-full items-center justify-center ' mb={5}>
                             <form ref={form} onSubmit={sendEmail} className=' text-dark/80 font-bold  '>
                                 <div className='mb-4 text-xl sm:text-sm dark:text-light'> Enter your Name
-                                    <input className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80' type="text" name="name" placeholder="  Your Full Name" required />
+                                    <input className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80 ' type="text" name="name" placeholder="  Your Full Name" required />
 
 
                                 </div>
@@ -283,7 +299,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className='-mb-4 text-xl sm:text-sm dark:text-light'> Enter your Message
-                                    <textarea className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80' 
+                                    <textarea className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80'
                                         name="message"
                                         rows="4"
                                         placeholder="  Drop Your Message"
@@ -292,20 +308,20 @@ const Contact = () => {
 
                                 </div>
 
-<div className='flex items-center justify-center mt-4 -mb-2'>
-<motion.button whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}
-                                    onClick={handleClick2}
-                                    className=' border border-dark rounded-full w-40  bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold p-1'
-                                    type="Submit"
-                                    
-                                >
-                                    Submit
-                                </motion.button>
+                                <div className='flex items-center justify-center mt-4 -mb-2'>
+                                    <motion.button whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}
+                                        onClick={handleClick2}
+                                        className=' border border-dark rounded-full w-40  bg-dark/80 text-light mt-4 ml-2 dark:bg-primary dark:text-darker dark:font-bold p-1'
+                                        type="Submit"
 
-</div>
-                                
+                                    >
+                                        Submit
+                                    </motion.button>
 
-                                
+                                </div>
+
+
+
                             </form>
                         </section>
                     </div>
