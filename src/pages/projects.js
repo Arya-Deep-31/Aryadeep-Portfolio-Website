@@ -96,7 +96,7 @@ const projects = () => {
             <main className='w-full mb-20 flex flex-col items-center justify-center sm:mt-4'>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
                     <Layout className=''>
-                        <AnimatedText text="Hustling Through Projects " className='' />
+                        <AnimatedText text="Hustling Through Projects " className='mb-1' />
                         <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
                         <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
