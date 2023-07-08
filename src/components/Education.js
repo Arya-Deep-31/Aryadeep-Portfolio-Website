@@ -81,7 +81,7 @@ const Education = () => {
 
                     <Details
 
-                        position="AISSCE" 
+                        position="Higher Secondary | AISSCE" 
                         society="KENDRIYA VIDYALAYA A.F.S , BORJHAR"
                         companyLink=""
                         time="2015-2021" address="Guwahati ,Assam, India"
@@ -92,7 +92,7 @@ const Education = () => {
 
                     <Details
 
-                        position="Nursery-Class 8" society="ST Clare's Convent High School"
+                        position="Primary Education" society="ST Clare's Convent High School"
                         companyLink=""
                         time="2007-2015" address="Guwahati , Assam , India"
                         work="As I reflect upon my journey, I am grateful for the foundation this school provided me. It equipped me with the knowledge, skills, and values. It was here that my passion for education , art and music ignited, to this voyage of life today.
