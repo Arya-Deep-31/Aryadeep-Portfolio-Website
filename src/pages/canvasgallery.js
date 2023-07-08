@@ -80,7 +80,7 @@ const CanvasRoom = () => {
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
                         <Layout className=' min-h-screen '>
                             <AnimatedText text="Welcome" className=' dark:!text-light/90' />
-                            <AnimatedText text="To Symphonic Verse" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-8 sm:!text-2xl' />
+                            <AnimatedText text="To Canvas Gallery" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-8 sm:!text-2xl' />
 
 
 
@@ -92,7 +92,7 @@ const CanvasRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! Rhythm lovers </span>
+                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! Hues of Imagination </span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />

@@ -25,7 +25,7 @@ export default function Home() {
       <TransitionEffect />
 
 
-      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }}>
+      <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
         <main className='flex w-full flex-col items-center justify-center lg:mb-10'>
           <Layout className=''>
@@ -33,14 +33,18 @@ export default function Home() {
 
 
 
-            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-16 sm:mt-0 sm:grid-cols-3 xl:ml-2 xs:-ml-4 xs:-mt-5'>
+            <div className='grid -my-8 w-full grid-cols-8 gap-12 items-center justify-between  lg:p-8 lg:grid-cols-3 lg:gap-24  md:p-12 md:grid-cols-3 md:mt-4 sm:p-8 sm:mt-0 sm:grid-cols-3  xs:-mt-5'>
 
 
 
-              <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
+             
+
+
+
+              <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4'>
                 <span className='xs:ml-1 text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '> Hey there !  </span>
 
-                <div className='-mt-8 w-60 rotate-12 xl:w-52 sm:w-48'>
+                <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                   <Image alt="Music Profile" src={Signature} />
 
                 </div>
@@ -88,14 +92,14 @@ export default function Home() {
                 <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'> Aryadeep Gogoi this side , travelling in the voyage of codes advancing through the waves of design and development</span>
                 <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>Feel free to explore my portfolio and get in touch if you are interested in collaborating on an exciting project. </span>
                 <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>Lets embark on a journey of innovation and creativity but before that make sure you navigate through my digital sanctuary !
-                 
+
                 </span>
 
                 <div className='flex flex-row mb-4 lg:mb-6'>
-                  
 
-                  <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} >
-                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="Download Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base'  target='_blank'> My Resume  </a>
+
+                  <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} className='mr-2'>
+                    <a href="https://drive.google.com/file/d/1j0Wj68TUpTsZIHNMMMYfbg2u5Taxq358/view?usp=sharing" title="Download Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' target='_blank'> My Resume  </a>
 
 
                   </motion.div>

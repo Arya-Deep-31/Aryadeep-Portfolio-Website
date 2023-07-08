@@ -91,7 +91,7 @@ const WordRoom = () => {
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
                         <Layout className=' min-h-screen  '>
                             <AnimatedText text="Welcome" className=' dark:!text-light/90' />
-                            <AnimatedText text="To Canvas Gallery" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-16  sm:!text-2xl' />
+                            <AnimatedText text="To Word Craft" className='dark:!text-light/90 !text-2xl font-bold text-dark/70 mb-16  sm:!text-2xl' />
 
 
 
