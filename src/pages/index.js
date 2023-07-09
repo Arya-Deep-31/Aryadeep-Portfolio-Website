@@ -42,17 +42,17 @@ export default function Home() {
 
 
               <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4'>
-                <span className='xs:ml-1 text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '> Hey there !  </span>
+                <span className='xs:mr-2 xs:ml-0 text-dark font-bold text-4xl dark:text-light md:text-4xl sm:text-3xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 '> Hey there !  </span>
 
-                <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
+                <div className='-mt-8 w-56 rotate-12 xl:w-50 sm:w-48'>
                   <Image alt="Music Profile" src={Signature} />
 
                 </div>
 
 
-                <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate about</span>
+                <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base xl:mr-2'>is passionate about</span>
 
-                <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl'>
+                <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl xs:mr-2'>
                   <TypewriterComponent options={{
                     autoStart: true,
                     loop: true,

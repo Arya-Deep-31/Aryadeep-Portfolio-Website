@@ -142,7 +142,7 @@ const projects = () => {
                                     title="My Personal Portfolio"
                                     type="Individual Project"
                                     img={portfolio}
-                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used iin this project are Next JS , Tailwind CSS , EmailJS, Figma and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
+                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used in this project are Next JS , Tailwind CSS , EmailJS, Figma and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
                                     link="https://aryadeep-portfolio-website.vercel.app/"
                                     github="/"
 
