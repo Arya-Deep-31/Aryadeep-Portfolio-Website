@@ -284,7 +284,7 @@ const Experience = () => {
                         position="Core Member" society="SYMPHONITS | Music Club Of NITS"
                         companyLink=""
                         time="June 2023-Present" address="Silchar ,Assam, India"
-                        work="As a core member of the Music Club at NITS, my work and contributions are centered around promoting musical talent and creating a vibrant musical community. Actively participate in organizing club activities, including rehearsals, performances, and event management. We collaborated with fellow core members to curate engaging musical events, talent showcases, and competitions. Additionally, we strive to foster an inclusive and supportive environment for all music enthusiasts ! ."
+                        work="As a core member of the Music Club at NITS, my work and contributions are centered around promoting musical talent and creating a vibrant musical community. Actively participate in organizing club activities, including rehearsals, performances, and event management. We collaborated with fellow core members to curate engaging musical events, talent showcases, and competitions."
 
 
                     />

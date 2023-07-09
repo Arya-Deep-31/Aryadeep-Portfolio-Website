@@ -47,7 +47,7 @@ const about = () => {
 
                             <div className='col-span-3 flex flex-col items-center justify-center mt-6'>
 
-                                <p className='pb-6 flex'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
+                                <p className='sm:text-base sm:p-2 pb-6 flex'> Aryadeep Gogoi here, navigating the coding voyage while riding the waves of design and development. Welcome to my portfolio!
 
                                     I am a 3rd-year BTECH student at NIT Silchar , pursuing my passion for technology and honing my skills in Web Development and UI/UX . Alongside my academic pursuits, I excel in time management, Communication skills ,  balancing my club and society activities.
 
@@ -55,9 +55,9 @@ const about = () => {
 
                                 </p>
 
-                                <p className='pb-6'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
+                                <p className='sm:text-base sm:p-2 pb-6'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
                                 </p>
-                                <p className='pb-2'> Stay inspired, and let's create something remarkable together!</p>
+                                <p className='sm:text-base sm:p-2 pb-2'> Stay inspired, and let's create something remarkable together!</p>
 
                             </div>
 

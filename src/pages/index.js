@@ -89,9 +89,9 @@ export default function Home() {
 
 
 
-                <span className='  text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'> Aryadeep Gogoi this side , travelling in the voyage of codes advancing through the waves of design and development</span>
-                <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-xl md:text-xl sm:text-lg xs:text-base'>Feel free to explore my portfolio and get in touch if you are interested in collaborating on an exciting project. </span>
-                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-xl  md:text-xl sm:text-lg xs:text-base'>Lets embark on a journey of innovation and creativity but before that make sure you navigate through my digital sanctuary !
+                <span className='  text-dark/90 text-lg dark:text-light  lg:text-2xl md:text-xl sm:text-lg xs:text-base'> Aryadeep Gogoi this side , travelling in the voyage of codes advancing through the waves of design and development</span>
+                <span className=' mt-4 text-dark/90 text-lg dark:text-light  lg:text-2xl md:text-xl sm:text-lg xs:text-base'>Feel free to explore my portfolio and get in touch if you are interested in collaborating on an exciting project. </span>
+                <span className=' mt-4 mb-8 text-dark/90 text-lg dark:text-light lg:text-2xl  md:text-xl sm:text-lg xs:text-base'>Lets embark on a journey of innovation and creativity but before that make sure you navigate through my digital sanctuary !
 
                 </span>
 
