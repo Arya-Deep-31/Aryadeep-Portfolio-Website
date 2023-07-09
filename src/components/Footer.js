@@ -17,14 +17,14 @@ const Footer = () => {
 
             </div>
             <footer className='bg-dark dark:bg-darker  h-1/2 w-full flex flex-row justify-around items-start p-5 sm:text-base  md:flex-col md:items-center justify-between sm:items-center justify-between '>
-                <div className='p-5 '>
+                <div className='p-4 '>
                     <div>
                         <div className='text-light font-bold pb-4 ml-12'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'>is at </span>
                         </div>
                         <div className='flex gap-5 text-light  p-2 sm:p-0'>
 
-                            <motion.a href="https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target={"_blank"} className='w-full mr-1'
+                            <motion.a href="https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target={"_blank"} className='w-[80%] mr-1'
                                 whileHover={{ y: -3 }}
                                 whileTap={{ scale: 0.9 }}>
                                 <LinkedInIcon />
@@ -62,7 +62,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4'>
+                    <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4 sm:w-full'>
                         Mail <span className='text-light'> me at </span>
                         <motion.a whileHover={{ color: 'violet' }}
                             whileTap={{ scale: 0.9 }} className='text-primary' href="mailto:aryadeepgogoi31@gmail.com">aryadeepgogoi31@gmail.com
@@ -71,9 +71,9 @@ const Footer = () => {
 
                 </div>
 
-                <div className='pt-6 text-light -ml-10'>
+                <div className='pt-6 text-light -ml-10 lg:ml-0 md:-ml-8'>
                     <div>
-                        <div className='text-light font-bold pb-2 flex flex-col items-center justify-center sm:ml-8  '>
+                        <div className='text-light font-bold pb-2 flex flex-col items-center justify-center lg:-ml-8 sm:ml-8  '>
                             <motion.a whileHover={{ color: 'violet' }}
                                 whileTap={{ scale: 0.9 }} href='/' className='text-primary  pb-2'> Home  </motion.a>
                             <motion.a whileHover={{ color: 'violet' }}
