@@ -21,25 +21,19 @@ import TypewriterComponent from 'typewriter-effect'
 
 const ProjectDetails = ({ title, type, summary, img, link, github }) => {
     return (
-        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-8 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
-            <Link className='w-full overflow-hidden rounded-lg lg:w-full lg:mb-8 sm:mb-4' href={link} target='_blank'>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}><Image src={img} alt={title} className='w-full h-auto ' /></motion.div>
+        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
+                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}><Image src={img} alt={title} className='w-full h-auto mb-4' /></motion.div>
 
 
 
-            </Link>
             <div className=' flex flex-col items-start justify-between pl-12 xl:pl-2 w-full'>
 
-                <h2 className='my-2 w-full  text-left text-4xl text-dark/90 font-bold dark:text-light md:text-3xl sm:text-2xl' >{title}</h2>
+                <h2 className='my-2 w-full  text-left text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-xl' >{title}</h2>
 
-                <p className='my-8 w-full font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
+                <p className=' w-full font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
                 <div className='flex items-center'>
 
-                    <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }}>
-                        <Link className='rounded-lg bg-dark text-light p-1 px-4 lg:px-8  text-lg dark:bg-primaryDark dark:text-white sm:text-base xs:text-sm' href={link} target='_blank'> Visit </Link>
-
-
-                    </motion.div>
+                    
                 </div>
             </div>
         </article>
@@ -127,7 +121,7 @@ const CanvasRoom = () => {
                                 </div>
 
 
-                                <div className='col-span-2 -mt-20  w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2'>
+                                <div className='col-span-2 -mt-20  w-full h-[60%] flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4  xs:-ml-2 xs:p-2'>
 
 
 
@@ -160,8 +154,8 @@ const CanvasRoom = () => {
 
 
 
-                            <AnimatedText text="Hustling Through Projects " className='mt-10  lg:mt-20 mt-28' />
-                            <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
+                            <AnimatedText text=" The Passion Shall Hold On!" className='mt-40 mb-2 lg:mt-20 mt-28' />
+                            <AnimatedText text="My Works" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
 
 
@@ -174,7 +168,7 @@ const CanvasRoom = () => {
                                         type="Project 1"
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi  'm ArygoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        
 
 
                                     />
@@ -184,9 +178,9 @@ const CanvasRoom = () => {
 
                                         title="Posua 2023 Website "
                                         type="Project 1"
-                                        img={musicprofile}
+                                        img={musicprofile} 
                                         summary="I'm Aryadeep  Gogoi   I'm A Ieep  Gyadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        
 
 
                                     />
@@ -198,7 +192,7 @@ const CanvasRoom = () => {
                                         type="Project 1"
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi   I'm A I'mp  Gogdeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        
 
 
                                     />

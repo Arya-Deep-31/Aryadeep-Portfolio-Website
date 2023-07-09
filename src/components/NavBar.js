@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon } from './Icons'
 import { motion } from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher'
-
+import { useEffect } from 'react';
 
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -19,6 +19,10 @@ const CustomLink = ({ href, title, className = "" }) => {
         </Link>
     )
 }
+
+
+
+
 
 
 
@@ -42,6 +46,14 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 const NavBar = () => {
 
 
+    useEffect(() => {
+    const audio = document.createElement('audio');
+    audio.src = '/your-song.mp3'; // Replace with the path to your song file
+
+    document.body.appendChild(audio);
+  }, []);
+
+
     const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {
@@ -56,7 +68,7 @@ const NavBar = () => {
 
 
 
-            <button title="Search"n className=' flex-col -ml-24 my-2 hidden lg:flex ' onClick={handleClick}>
+            <button title="Search" n className=' flex-col -ml-24 my-2 hidden lg:flex ' onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out  block h-1 w-8 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5 '}`}></span>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-6 ml-1 rounded-sm my-0.5  ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
                 <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-8 rounded-sm  ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
@@ -110,6 +122,15 @@ const NavBar = () => {
                         className='w-6 mr-4'>
                         <FacebookIcon />
                     </motion.a>
+
+                    <motion.a href="https://facebook.com/profile.php?id=100076109862434" target={"_blank"}
+                        whileHover={{ y: -3 }}
+                        whileTap={{ scale: 0.9 }}
+                        className='w-6 mr-4'>
+                        <FacebookIcon />
+                    </motion.a>
+
+
 
                     <button title="Search" onClick={() => setMode(mode === "light" ? "dark" : "light")} className='flex items-center justify-center rounded-full p-1' >
                         {
@@ -192,6 +213,10 @@ const NavBar = () => {
                                 </button>
 
                             </motion.a>
+
+
+
+
 
 
                         </nav>
