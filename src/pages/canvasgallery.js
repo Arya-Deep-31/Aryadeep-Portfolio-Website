@@ -75,7 +75,8 @@ const ProjectDetails1 = ({ title, summary }) => {
             <motion.div  initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'ease' }}>
+        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}} >
+
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
@@ -111,7 +112,7 @@ const ProjectDetails2 = ({ title, summary }) => {
             <motion.div  initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'ease' }}>
+        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}}>
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
@@ -148,7 +149,7 @@ const ProjectDetails3 = ({ title, summary }) => {
             <motion.div  initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'ease' }}>
+        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}}>
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
@@ -276,17 +277,17 @@ const CanvasRoom = () => {
 
 
                             <AnimatedText text=" The Passion Shall Hold On!" className='mt-40 mb-2 lg:mt-20 mt-28' />
-                            <AnimatedText text="My Works" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
+                            <AnimatedText text="My Works" className='mb-10 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
 
 
 
-                            <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xl:flex-col md:p-2 sm:p-4 mb-20'>
+                            <div className='mt-4 grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xl:flex-col md:p-2 sm:p-4 mb-20'>
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12  md:col-span-12'>
                                     <ProjectDetails1
 
                                         title="Painting/Sketching "
-                                        summary="I'm Aryadeep  Gogoi  'm ArygoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                        summary="With each stroke, I breathe life into my artwork in an attempt to capture the emotions deep within."
 
 
 
@@ -296,7 +297,7 @@ const CanvasRoom = () => {
                                     <ProjectDetails2
 
                                         title="Photography "
-                                        summary="I'm Aryadeep  Gogoi   I'm A Ieep  Gyadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                        summary="Always the observer, I have a keen eye for composition and tend to capture moments that evoke emotions through my lens."
 
 
 
@@ -308,7 +309,7 @@ const CanvasRoom = () => {
                                         title="Graphic Designing "
                                         type="Project 1"
                                         img={musicprofile}
-                                        summary="I'm Aryadeep  Gogoi   I'm A I'mp  Gogdeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
+                                        summary="Skillfully blending creativity and technical expertise, crafting designs that leave an impact on the viewer."
 
 
 
