@@ -66,7 +66,7 @@ const ProjectDetails1 = ({ title, summary }) => {
         return () => {
             clearInterval(intervalId);
         };
-    }, []);
+    }, );
 
     
 
@@ -76,7 +76,7 @@ const ProjectDetails1 = ({ title, summary }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: 'ease' }}>
-                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+                <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
             <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>
@@ -97,12 +97,12 @@ const ProjectDetails2 = ({ title, summary }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 4000);
+        }, 3000);
 
         return () => {
             clearInterval(intervalId);
         };
-    }, []);
+    }, );
 
     
 
@@ -112,7 +112,7 @@ const ProjectDetails2 = ({ title, summary }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: 'ease' }}>
-                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+                <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
             <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>
@@ -134,12 +134,12 @@ const ProjectDetails3 = ({ title, summary }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 4000);
+        }, 3000);
 
         return () => {
             clearInterval(intervalId);
         };
-    }, []);
+    }, );
 
     
 
@@ -149,7 +149,7 @@ const ProjectDetails3 = ({ title, summary }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: 'ease' }}>
-                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+                <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
             <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>

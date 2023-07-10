@@ -17,7 +17,6 @@ import {
 } from "@chakra-ui/react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-import { sendContactForm } from "../lib/api";
 import TransitionEffect from '@/components/TransitionEffect';
 
 
