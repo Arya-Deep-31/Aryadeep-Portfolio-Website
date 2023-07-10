@@ -73,6 +73,7 @@ const ProjectDetails1 = ({ title, summary }) => {
     return (
         <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
             <motion.div  initial={{ opacity: 0 }}
+            
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}} >

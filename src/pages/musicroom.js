@@ -158,10 +158,8 @@ const MusicRoom = () => {
 
 
 
-
-                            <AnimatedText text="Hustling Through Projects " className='mt-10  lg:mt-20 mt-28' />
-                            <AnimatedText text="My Projects" className='mb-6 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
-
+                            <AnimatedText text=" The Passion Shall Hold On!" className='mt-40 mb-2 lg:mt-20 mt-28' />
+                            <AnimatedText text="My Works" className='mb-10 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
 
 
