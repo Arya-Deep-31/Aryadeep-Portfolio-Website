@@ -123,12 +123,7 @@ const NavBar = () => {
                         <FacebookIcon />
                     </motion.a>
 
-                    <motion.a href="https://facebook.com/profile.php?id=100076109862434" target={"_blank"}
-                        whileHover={{ y: -3 }}
-                        whileTap={{ scale: 0.9 }}
-                        className='w-6 mr-4'>
-                        <FacebookIcon />
-                    </motion.a>
+                    
 
 
 

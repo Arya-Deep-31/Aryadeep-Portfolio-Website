@@ -10,7 +10,6 @@ import ParticlesBackground from '@/components/ParticlesBackground'
 
 
 
-
 export default function Home() {
   return (
 
@@ -30,13 +29,13 @@ export default function Home() {
 
 
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
-        
+
 
         <main className='flex w-full flex-col items-center justify-center lg:mb-10'>
 
 
 
-          
+
           <Layout className=''>
 
 
@@ -46,7 +45,7 @@ export default function Home() {
 
 
 
-             
+
 
 
 
@@ -57,6 +56,7 @@ export default function Home() {
                   <Image alt="Music Profile" src={Signature} />
 
                 </div>
+                
 
 
                 <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base xl:mr-2'>is passionate about</span>

@@ -14,32 +14,153 @@ import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import Link from 'next/link'
 import TypewriterComponent from 'typewriter-effect'
+import { useState, useEffect } from 'react';
+
+import painting1 from "../../public/images/talentpages/1.webp"
+import painting2 from "../../public/images/talentpages/2.webp"
+import painting3 from "../../public/images/talentpages/3.webp"
+import painting4 from "../../public/images/talentpages/4.webp"
+import painting5 from "../../public/images/talentpages/5.webp"
+import painting6 from "../../public/images/talentpages/6.webp"
+import painting7 from "../../public/images/talentpages/7.webp"
+import painting8 from "../../public/images/talentpages/8.webp"
+import painting9 from "../../public/images/talentpages/9.webp"
+
+
+import photo1 from "../../public/images/talentpages/photo1.webp"
+import photo2 from "../../public/images/talentpages/photo2.webp"
+import photo3 from "../../public/images/talentpages/photo3.webp"
+import photo4 from "../../public/images/talentpages/photo4.webp"
+import photo5 from "../../public/images/talentpages/photo5.webp"
+import photo6 from "../../public/images/talentpages/photo6.webp"
+import photo7 from "../../public/images/talentpages/photo7.webp"
+
+
+
+import design1 from "../../public/images/talentpages/design1.webp"
+import design2 from "../../public/images/talentpages/design2.webp"
+import design3 from "../../public/images/talentpages/design3.webp"
+import design4 from "../../public/images/talentpages/design4.webp"
+import design5 from "../../public/images/talentpages/design5.webp"
+import design6 from "../../public/images/talentpages/design6.webp"
+import design7 from "../../public/images/talentpages/design7.webp"
+import design8 from "../../public/images/talentpages/design8.webp"
 
 
 
 
 
-const ProjectDetails = ({ title, type, summary, img, link, github }) => {
+
+
+const ProjectDetails1 = ({ title, summary }) => {
+
+
+    const images = [painting1,painting2,painting3,painting4,painting5,painting6,painting7,painting8 , painting9];
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 3000);
+
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, []);
+
+    
+
     return (
-        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid  bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary    lg:flex-col  xs:p-4' >
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}><Image src={img} alt={title} className='w-full h-auto mb-4' /></motion.div>
+        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
+            <motion.div  initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5, ease: 'ease' }}>
+                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+            </motion.div>
 
-
-
-            <div className=' flex flex-col items-start justify-between pl-12 xl:pl-2 w-full'>
-
-                <h2 className='my-2 w-full  text-left text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-xl' >{title}</h2>
-
-                <p className=' w-full font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
-                <div className='flex items-center'>
-
-                    
-                </div>
+            <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>
+                <h2 className='my-2 w-full  text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-xl flex items-center justify-center'>{title}</h2>
+                <p className='w-full font-dark dark:text-light md:text-base sm:text-sm'>{summary}</p>
             </div>
         </article>
+    );
+};
 
-    )
-}
+
+const ProjectDetails2 = ({ title, summary }) => {
+
+
+    const images = [photo1,photo2,photo3,photo4,photo5,photo6,photo7];
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 4000);
+
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, []);
+
+    
+
+    return (
+        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
+            <motion.div  initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5, ease: 'ease' }}>
+                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+            </motion.div>
+
+            <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>
+                <h2 className='my-2 w-full text-left text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-xl flex items-center justify-center'>{title}</h2>
+                <p className='w-full font-dark dark:text-light md:text-base sm:text-sm'>{summary}</p>
+            </div>
+        </article>
+    );
+};
+
+
+
+const ProjectDetails3 = ({ title, summary }) => {
+
+
+    const images = [design1,design2, design3 , design4,design5, design6 , design7,design8];
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 4000);
+
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, []);
+
+    
+
+    return (
+        <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
+            <motion.div  initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5, ease: 'ease' }}>
+                <Image src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
+            </motion.div>
+
+            <div className='flex flex-col items-start justify-between p-6 xl:p-1 w-full'>
+                <h2 className='my-2 w-full text-left text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-xl flex items-center justify-center'>{title}</h2>
+                <p className='w-full font-dark dark:text-light md:text-base sm:text-sm'>{summary}</p>
+            </div>
+        </article>
+    );
+};
+
+
 
 
 
@@ -68,7 +189,7 @@ const CanvasRoom = () => {
 
                 </Image>
 
-                
+
                 <main className='flex w-full flex-col items-center justify-center '>
 
                     <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
@@ -162,37 +283,33 @@ const CanvasRoom = () => {
 
                             <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 xl:flex-col md:p-2 sm:p-4 mb-20'>
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12  md:col-span-12'>
-                                    <ProjectDetails
+                                    <ProjectDetails1
 
-                                        title="Posua 2023 Website "
-                                        type="Project 1"
-                                        img={musicprofile}
+                                        title="Painting/Sketching "
                                         summary="I'm Aryadeep  Gogoi  'm ArygoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        
+
 
 
                                     />
                                 </div>
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12 md:col-span-12'>
-                                    <ProjectDetails
+                                    <ProjectDetails2
 
-                                        title="Posua 2023 Website "
-                                        type="Project 1"
-                                        img={musicprofile} 
+                                        title="Photography "
                                         summary="I'm Aryadeep  Gogoi   I'm A Ieep  Gyadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        
+
 
 
                                     />
                                 </div>
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12  md:col-span-12'>
-                                    <ProjectDetails
+                                    <ProjectDetails3
 
-                                        title="Posua 2023 Website "
+                                        title="Graphic Designing "
                                         type="Project 1"
                                         img={musicprofile}
                                         summary="I'm Aryadeep  Gogoi   I'm A I'mp  Gogdeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        
+
 
 
                                     />
