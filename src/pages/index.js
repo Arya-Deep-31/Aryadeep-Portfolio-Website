@@ -56,7 +56,7 @@ export default function Home() {
                   <Image alt="Music Profile" src={Signature} />
 
                 </div>
-                
+
 
 
                 <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base xl:mr-2'>is passionate about</span>

@@ -1,20 +1,9 @@
-import React, { useState } from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import { motion } from "framer-motion";
-import {
-    Button,
 
-    FormControl,
-    FormErrorMessage,
-    FormLabel,
 
-    Input,
-    Text,
-    Textarea,
-    useToast,
-} from "@chakra-ui/react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import TransitionEffect from '@/components/TransitionEffect';

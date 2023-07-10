@@ -46,12 +46,6 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 const NavBar = () => {
 
 
-    useEffect(() => {
-    const audio = document.createElement('audio');
-    audio.src = '/your-song.mp3'; // Replace with the path to your song file
-
-    document.body.appendChild(audio);
-  }, []);
 
 
     const [isOpen, setIsOpen] = useState(false);
