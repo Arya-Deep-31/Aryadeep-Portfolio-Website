@@ -105,7 +105,7 @@ const WordRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-3xl sm:text-2xl xs:text-2xl lg:mt-8 md:mt-6 sm:mt-2 ml-16 xl:ml-10 lg:ml-6'>Salut,felllow wordsmiths</span>
+                                    <span className=' text-dark font-bold text-3xl dark:text-light md:text-3xl sm:text-2xl xs:text-2xl lg:mt-8 md:mt-4 sm:-mt-8 ml-16 xl:ml-10 lg:ml-6'>Salut,felllow wordsmiths</span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />
@@ -113,9 +113,9 @@ const WordRoom = () => {
                                     </div>
 
 
-                                    <span className='mb-4 -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate writing</span>
+                                    <span className=' -mt-8 text-dark/90 text-xl dark:text-light xl:text-xl  md:text-xl sm:text-lg xs:text-base'>is passionate writing</span>
 
-                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl'>
+                                    <span className=' font-bold text-5xl ml-1 text-dark shoot dark:text-primary xl:text-4xl lg:text-3xl md:text-3xl sm:text-3xl sm:mt-2'>
                                         <TypewriterComponent options={{
                                             autoStart: true,
                                             loop: true,
@@ -136,7 +136,7 @@ const WordRoom = () => {
 
 
 
-                                <div className='col-span-4 w-[80%] ml-20 relative mb-2 p-4 xl:ml-16 lg:ml-16 sm:ml-12 xs:ml-10 justify-end  md:p-0.5 sm:p-0 '>
+                                <div className='sm:-mt-4 col-span-4 w-[80%] ml-20 relative mb-2 p-4 xl:ml-16 lg:ml-16 sm:ml-12 xs:ml-10 justify-end  md:p-0.5 sm:p-0 '>
                                     <Image src={wordcraft} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 
