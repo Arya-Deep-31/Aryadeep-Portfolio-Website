@@ -3,6 +3,7 @@
 
 import musicprofile from "../../public/images/talentpages/musicbg (1).webp"
 import musicprofile2 from "../../public/images/talentpages/craftgallerybg.webp"
+import bh2 from "../../public/images/talentpages/bg3.webp"
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -55,7 +56,7 @@ import design8 from "../../public/images/talentpages/design8.webp"
 const ProjectDetails1 = ({ title, summary }) => {
 
 
-    const images = [painting1,painting2,painting3,painting4,painting5,painting6,painting7,painting8 , painting9];
+    const images = [painting1, painting2, painting3, painting4, painting5, painting6, painting7, painting8, painting9];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
@@ -66,17 +67,17 @@ const ProjectDetails1 = ({ title, summary }) => {
         return () => {
             clearInterval(intervalId);
         };
-    }, );
+    },);
 
-    
+
 
     return (
         <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
-            <motion.div  initial={{ opacity: 0 }}
-            
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}} >
+            <motion.div initial={{ opacity: 0 }}
+
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{ scale: 1.05 }} >
 
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
@@ -93,7 +94,7 @@ const ProjectDetails1 = ({ title, summary }) => {
 const ProjectDetails2 = ({ title, summary }) => {
 
 
-    const images = [photo1,photo2,photo3,photo4,photo5,photo6,photo7];
+    const images = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
@@ -104,16 +105,16 @@ const ProjectDetails2 = ({ title, summary }) => {
         return () => {
             clearInterval(intervalId);
         };
-    }, );
+    },);
 
-    
+
 
     return (
         <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
-            <motion.div  initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}}>
+            <motion.div initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{ scale: 1.05 }}>
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
@@ -130,7 +131,7 @@ const ProjectDetails2 = ({ title, summary }) => {
 const ProjectDetails3 = ({ title, summary }) => {
 
 
-    const images = [design1,design2, design3 , design4,design5, design6 , design7,design8];
+    const images = [design1, design2, design3, design4, design5, design6, design7, design8];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
@@ -141,16 +142,16 @@ const ProjectDetails3 = ({ title, summary }) => {
         return () => {
             clearInterval(intervalId);
         };
-    }, );
+    },);
 
-    
+
 
     return (
         <article className='w-full flex flex-col items-center justify-between rounded-3xl border border-solid bg-white/40 shadow-2xl p-6 dark:bg-darker/80 dark:shadow-primary/60 dark:border-primary lg:flex-col xs:p-4'>
-            <motion.div  initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{scale:1.05}}>
+            <motion.div initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.5, ease: 'easeInOut' }} whileHover={{ scale: 1.05 }}>
                 <Image quality={80} src={images[currentImageIndex]} alt={title} className='w-full h-auto mb-2' />
             </motion.div>
 
@@ -188,6 +189,10 @@ const CanvasRoom = () => {
 
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
                 <Image src={musicprofile2} quality={50} alt="Music Profile" className="h-full opacity-25 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+
+                </Image>
+
+                <Image src={bh2} quality={60} alt="wordcraft" className="h-full absolute -mt-20 opacity-0 md:opacity-0 sm:opacity-0 xs:opacity-30 xs:w-full">
 
                 </Image>
 

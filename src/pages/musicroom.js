@@ -11,6 +11,7 @@ import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import Link from 'next/link'
 import TypewriterComponent from 'typewriter-effect'
+import bh2 from "../../public/images/talentpages/bh2.webp"
 
 
 
@@ -70,7 +71,10 @@ const MusicRoom = () => {
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
 
 
-                <Image src={musicprofile2} quality={50} alt="Music Profile" className="h-full opacity-30 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+                <Image src={musicprofile2} quality={60} alt="Music Profile" className="h-full opacity-30 absolute -mt-20 lg:opacity-0 md:opacity-0 sm:opacity-0">
+
+                </Image>
+                <Image src={bh2} quality={60} alt="Music Profile" className="h-full absolute -mt-20 opacity-0 md:opacity-0 sm:opacity-0 xs:opacity-30 xs:w-full">
 
                 </Image>
                 <main className='flex w-full flex-col items-center justify-center '>
