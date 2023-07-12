@@ -71,6 +71,7 @@ export default function Home() {
                       "Prototyping..",
                       "Developing..",
                       "UI/UX...",
+                      "AI / ML...",
                     ],
                   }} />
                 </span>

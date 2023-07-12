@@ -27,9 +27,9 @@ const ProjectDetails = ({ title, type, summary, img, link, github }) => {
 
 
             </Link>
-            <div className=' flex flex-col items-start justify-between pl-12 xl:pl-2 w-full'>
+            <div className=' flex flex-col items-start justify-between p-3 xl:p-2 w-full'>
 
-                <h2 className='my-2 w-full  text-left text-4xl text-dark/90 font-bold dark:text-light md:text-3xl sm:text-2xl' >{title}</h2>
+                <h2 className='my-2 w-full  text-left text-3xl text-dark/90 font-bold dark:text-light md:text-2xl sm:text-2xl xs:text-xl' >{title}</h2>
 
                 <p className='my-8 w-full font-dark dark:text-light md:text-base sm:text-sm' >{summary}</p>
                 <div className='flex items-center'>
@@ -171,11 +171,11 @@ const MusicRoom = () => {
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12  md:col-span-12'>
                                     <ProjectDetails
 
-                                        title="Posua 2023 Website "
+                                        title="Represented NITS at Spring Fest'23 IIT KGP"
                                         type="Project 1"
                                         img={musicprofile}
-                                        summary="I'm Aryadeep  Gogoi  'm ArygoI'm Aryadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        summary="A week full , travelling and exploring challenges along the event of Wildfire and Lakeside Dreams at the beautiful campus of IIT Kharagpur"
+                                        link=""
 
 
                                     />
@@ -183,11 +183,11 @@ const MusicRoom = () => {
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12 md:col-span-12'>
                                     <ProjectDetails
 
-                                        title="Posua 2023 Website "
+                                        title="Represneted in Inter Hostel ,Independence Day'23 ,Incand'23 , Tecno'22 "
                                         type="Project 1"
                                         img={musicprofile}
-                                        summary="I'm Aryadeep  Gogoi   I'm A Ieep  Gyadeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        summary=""
+                                        link=""
 
 
                                     />
@@ -195,11 +195,11 @@ const MusicRoom = () => {
                                 <div className='col-span-4 xl:col-span-4 lg:col-span-12  md:col-span-12'>
                                     <ProjectDetails
 
-                                        title="Posua 2023 Website "
+                                        title="Leisure Time & Beats in lo-fi"
                                         type="Project 1"
                                         img={musicprofile}
-                                        summary="I'm Aryadeep  Gogoi   I'm A I'mp  Gogdeep  Gogoi   I'm A I'm Aryadeep  Gogoi ryadeep  Gogo"
-                                        link="https://www.posua23.in/"
+                                        summary="To the poetry of the air , the wine that fills the glass of silence and the soundtrack of everyones rhytm in life . Feel free to collab"
+                                        link="https://drive.google.com/drive/folders/18x-m8t0nSuoMh3NcyuEByGIwP-_UzPnv?usp=sharing"
 
 
                                     />

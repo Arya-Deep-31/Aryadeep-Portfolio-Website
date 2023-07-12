@@ -192,9 +192,11 @@ const CanvasRoom = () => {
 
                 </Image>
 
-                <Image src={bh2} quality={60} alt="wordcraft" className="h-full absolute -mt-20 opacity-0 md:opacity-0 sm:opacity-0 xs:opacity-30 xs:w-full">
+                <Image src={bh2} quality={60} alt="wordcraft" className="h-full absolute -mt-20 opacity-0 md:opacity-0 sm:opacity-0 xs:opacity-30 xs:w-full" >
 
                 </Image>
+
+
 
 
                 <main className='flex w-full flex-col items-center justify-center '>
