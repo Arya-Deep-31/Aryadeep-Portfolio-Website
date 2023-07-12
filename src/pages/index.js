@@ -6,7 +6,6 @@ import Signature from "../../public/images/profile/signature.webp"
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import TypewriterComponent from 'typewriter-effect'
-import ParticlesBackground from '@/components/ParticlesBackground'
 
 
 
@@ -22,10 +21,13 @@ export default function Home() {
 
       </Head>
 
+     
+
 
 
 
       <TransitionEffect />
+      
 
 
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} >
