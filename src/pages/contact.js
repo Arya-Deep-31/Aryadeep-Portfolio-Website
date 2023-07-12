@@ -287,7 +287,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className='-mb-4 text-xl sm:text-sm dark:text-light'> Enter your Message
-                                    <textarea className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80'
+                                    <textarea className='p-1 mt-2 rounded w-full border-2 text-base sm:text-sm dark:text-dark/80 '
                                         name="message"
                                         rows="4"
                                         placeholder="  Drop Your Message"

@@ -16,7 +16,7 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
     
 
     return (
-        <li ref={ref} className='my-8  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        <li ref={ref} className='my-8   first:mt-0 last:mb-0 w-[60%] xs:w-[70%] xs:mr-8 mx-auto flex flex-col items-center justify-between'>
 
             <TrackIcon reference={ref} />
             <div>
@@ -53,13 +53,13 @@ const Education = () => {
     return (
         <div className='mb-24'>
             <Layout className=''>
-                <AnimatedText text="Journey Through " className='mb-2 mt-2' />
+                <AnimatedText text="Journey Through " className='mb-2 mt-2 xs:!text-3xl' />
                 <AnimatedText text="My Education" className=' !text-3xl font-bold text-dark/70 md:!text-2xl sm:!text-xl mb-8' />
             </Layout>
 
 
 
-            <div ref={ref} className='w-[75%] mx-auto relative xs:w-[85%]'>
+            <div ref={ref} className='w-[75%] mx-auto relative xs:w-[95%]'>
 
                 <motion.div
                     style={{ scaleY: scrollYProgress }}

@@ -191,10 +191,10 @@ const Details = ({ position, society, societyLink, time, address, work }) => {
 
 
     return (
-        <li ref={ref} className='my-12  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+        <li ref={ref} className='my-12  first:mt-0 last:mb-0 w-[60%] xs:w-[70%] xs:mr-8  mx-auto flex flex-col items-center justify-between'>
 
             <TrackIcon reference={ref} />
-            <div>
+            <div >
                 <h3 className='dark:text-light  font-bold text-2xl text-dark mb-1'> {position}&nbsp; <a href={societyLink} target='_blank' className=' dark:text-primary text-primaryDark/90'> @{society} </a> </h3>
                 <span className='font-bold text-dark/70 dark:text-light/60'>
                     {time} | {address}
@@ -228,13 +228,13 @@ const Experience = () => {
     return (
         <div className='mb-24'>
             <Layout className=''>
-                <AnimatedText text="Growing Through " className='mb-2 mt-4' />
-                <AnimatedText text="My Experience" className=' !text-3xl font-bold text-dark/70  md:!text-2xl sm:!text-xl mb-8' />
+                <AnimatedText text="Growing Through " className='mb-2 mt-4 xs:!text-3xl' />
+                <AnimatedText text="Position Of Responsibilities" className=' !text-3xl font-bold text-dark/70  md:!text-2xl sm:!text-xl mb-8' />
             </Layout>
 
 
 
-            <div ref={ref} className='w-[75%] mx-auto relative xs:w-[85%]'>
+            <div ref={ref} className='w-[75%] mx-auto relative xs:w-[95%]'>
 
                 <motion.div
                     style={{ scaleY: scrollYProgress }}

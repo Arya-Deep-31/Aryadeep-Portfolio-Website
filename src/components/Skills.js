@@ -11,11 +11,11 @@ const Skills = () => {
     return (
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} className='pb-10 '>
             <Layout className=''>
-                <AnimatedText text="Striving and Hustling" className='mb-2 mt-4' />
+                <AnimatedText text="Striving and Hustling" className='mb-2 mt-4 xs:!text-3xl' />
                 <AnimatedText text=" My Skills" className=' !text-3xl font-bold text-dark/70 md:!text-2xl sm:!text-xl mb-8' />
             </Layout>
 
-            <div className='grid grid-cols-4 gap-4 mb-10 sm:grid-cols-4 xs:grid-cols-3 sm:gap-5  '>
+            <div className='grid grid-cols-4 gap-4 mb-10 sm:grid-cols-4 xs:grid-cols-3 sm:gap-5 xs:p-3 '>
 
 
 

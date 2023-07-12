@@ -24,7 +24,7 @@ const Footer = () => {
                         </div>
                         <div className='flex gap-5 text-light  p-2 sm:p-0'>
 
-                            <motion.a href="https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target={"_blank"} className='w-[80%] mr-1'
+                            <motion.a href="https://www.linkedin.com/in/aryadeep-gogoi-696609236/" target={"_blank"} className='w-[80%] mr-2 '
                                 whileHover={{ y: -3 }}
                                 whileTap={{ scale: 0.9 }}>
                                 <LinkedInIcon />
@@ -62,7 +62,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div className='text-light text-bold  mt-1 sm:ml-2 sm:mt-4 sm:w-full'>
+                    <div className='text-light text-bold  mt-1  sm:mt-4 sm:w-full'>
                         Mail <span className='text-light'> me at </span>
                         <motion.a whileHover={{ color: 'violet' }}
                             whileTap={{ scale: 0.9 }} className='text-primary' href="mailto:aryadeepgogoi31@gmail.com">aryadeepgogoi31@gmail.com
