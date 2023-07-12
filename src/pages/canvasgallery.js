@@ -61,7 +61,7 @@ const ProjectDetails1 = ({ title, summary }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000);
+        }, 2500);
 
         return () => {
             clearInterval(intervalId);
@@ -99,7 +99,7 @@ const ProjectDetails2 = ({ title, summary }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000);
+        }, 2500);
 
         return () => {
             clearInterval(intervalId);
@@ -136,7 +136,7 @@ const ProjectDetails3 = ({ title, summary }) => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000);
+        }, 2500);
 
         return () => {
             clearInterval(intervalId);
@@ -209,7 +209,7 @@ const CanvasRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className='ml-12 xl:ml-6 lg:ml-0 text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-2xl xs:text-xl lg:mt-8 md:mt-6 sm:mt-2 '>Hey ! Hues of Imagination </span>
+                                    <span className='ml-12 xl:ml-6 lg:ml-0 text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-2xl xs:text-xl lg:mt-8 md:mt-6 sm:mt-0 '>Hey ! Hues of Imagination </span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />
@@ -239,7 +239,7 @@ const CanvasRoom = () => {
 
 
 
-                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:-mt-14 mb-4'>
+                                <div className='col-span-4 w-full relative mb-2 p-4 ml-4  justify-end  md:p-0.5 sm:p-0 sm:-mt-14 mb-4 xs:mb-6'>
                                     <Image src={profilePic} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority={false} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl " />
                                 </div>
 
