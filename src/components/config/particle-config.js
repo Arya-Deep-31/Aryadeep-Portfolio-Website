@@ -1,4 +1,6 @@
 const Particlesconfig = {
+
+
     autoPlay: true,
     background: {
       color: {

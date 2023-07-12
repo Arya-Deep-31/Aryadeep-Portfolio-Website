@@ -6,7 +6,7 @@ import Signature from "../../public/images/profile/signature.webp"
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import TypewriterComponent from 'typewriter-effect'
-
+import ParticlesBackground from '@/components/ParticlesBackground'
 
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
 
 
     <>
+          <ParticlesBackground/>
 
       <Head>
         <title>Aryadeep Portfolio</title>
@@ -22,9 +23,6 @@ export default function Home() {
       </Head>
 
      
-
-
-
 
       <TransitionEffect />
       
@@ -72,8 +70,7 @@ export default function Home() {
                       "Designing..",
                       "Prototyping..",
                       "Developing..",
-                      "UI/UX...",
-                      "AI / ML...",
+                      "UI/UX....",
                     ],
                   }} />
                 </span>
