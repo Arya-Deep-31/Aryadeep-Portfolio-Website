@@ -6,6 +6,7 @@ import Signature from "../../public/images/profile/signature.webp"
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from "framer-motion";
 import TypewriterComponent from 'typewriter-effect'
+import ParticlesBackground from '@/components/ParticlesBackground'
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
      
 
       <TransitionEffect />
+      <ParticlesBackground/>
       
 
 
