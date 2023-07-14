@@ -216,7 +216,7 @@ const CanvasRoom = () => {
 
 
                                 <div className='col-span-2 w-full flex flex-col items-center justify-center lg:col-span-4 md:col-span-4 sm:col-span-4 '>
-                                    <span className='ml-12 xl:ml-6 lg:ml-0 text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-2xl xs:text-xl lg:mt-8 md:mt-6 sm:mt-0 '>Hey ! Hues of Imagination </span>
+                                    <span className='ml-16 xl:ml-6 lg:ml-0 text-dark font-bold text-3xl dark:text-light md:text-4xl sm:text-2xl xs:text-xl lg:mt-8 md:mt-6 sm:mt-0 '>Hey ! Hues of Imagination </span>
 
                                     <div className='-mt-8 w-56 rotate-12 xl:w-52 sm:w-48'>
                                         <Image alt="Music Profile" src={Signature} />

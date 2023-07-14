@@ -174,7 +174,7 @@ const MusicRoom = () => {
                                         title="Represented NITS at Spring Fest'23 IIT KGP"
                                         type="Project 1"
                                         img={musicprofile}
-                                        summary="A week full , travelling and exploring challenges along the event of Wildfire and Lakeside Dreams at the beautiful campus of IIT Kharagpur"
+                                        summary="A week exploring challenges along the event of Wildfire and Lakeside Dreams at the beautiful campus of IIT Kharagpur"
                                         link=""
 
 
