@@ -12,6 +12,8 @@ import meeatui from "../../public/images/projects/meeat.webp"
 import posuaui from "../../public/images/projects/posua.webp"
 import trinetra from "../../public/images/projects/trinetra.webp"
 import portfolio from "../../public/images/projects/portfolio.webp"
+import heart from "../../public/images/projects/heart.webp"
+import eco from "../../public/images/projects/eco.webp"
 import ecs from "../../public/images/projects/ecs.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
@@ -100,18 +102,23 @@ const projects = () => {
                         <AnimatedText text="My Projects" className='mb-8 !text-3xl font-bold text-dark/70 sm:!text-2xl' />
 
                         <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                            
+
                             <div className='col-span-12  '>
+                                
                                 <ProjectDetails
 
-                                    title=" "
-                                    type="Team Project"
-                                    img={project1}
-                                    summary="Under Construction"
-                                    link="https://www.posua23.in/"
-                                    github="/"
+                                    title=" Heart Disease Analysis"
+                                    type="Individual Project"
+                                    img={heart}
+                                    summary="
+                                    In this machine learning project,I analyzed diverse patient data to build predictive models for early detection and diagnosis of human heart disease. Through feature selection and engineering, we identify critical risk factors and build accurate classifiers using logistic regression, decision trees, and neural networks. This project exemplifies machine learning's potential in healthcare, aiding preventive care and improving patient outcomes."
+                                    link="https://drive.google.com/file/d/1WTuX1-aB4uzUJVVbu-UvgYUWhH78NZaU/view?usp=sharing"
+                                    github="https://github.com/Arya-Deep-31/Heart-Disease-Analysis"
 
                                 />
                             </div>
+
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
@@ -149,9 +156,24 @@ const projects = () => {
                                 />
                             </div>
 
-
                             <div className='col-span-12'>
                                 <ProjectDetails
+
+                                    title="ECO CLUB WEBSITE"
+                                    type="Team Project"
+                                    img={eco}
+                                    summary=" Under Construction"
+                                    link="/"
+                                    github="/"
+
+                                />
+                            </div>
+
+
+
+
+                            <div className='col-span-12'>
+                                <ProjectDetails2
 
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
@@ -163,7 +185,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | POSUA 2023"
                                     type="Team Project"
@@ -176,7 +198,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | AgriShare"
                                     type="Individual Project"
@@ -188,7 +210,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
@@ -201,7 +223,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
@@ -213,7 +235,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | TrinetraGeeks"
                                     type="Individual Project"
