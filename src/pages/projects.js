@@ -246,6 +246,18 @@ const projects = () => {
 
                                 />
                             </div>
+                             <div className='col-span-12'>
+                                <ProjectDetails2
+
+                                    title="UI/UX | ECS WEBSITE2022"
+                                    type="Team Project"
+                                    img={ecs}
+                                    summary="A week over made project for the ECS Website of 2022 , this team project along with Jacinth Mahanta and Maharnav Deka uses gradient feature from top to bottom . This is another piece of work under my post as Junior Media and Graphics Design Member at ECS"
+                                    link="https://www.figma.com/file/pfXjOMgyrZIpumZ1mDqAg0/Ecs-website?type=design&node-id=0%3A1&mode=design&t=IwBPhPkFWT4Jb0hc-1"
+                                    github="/"
+
+                                />
+                            </div>
 
                         </div>
                     </Layout>
