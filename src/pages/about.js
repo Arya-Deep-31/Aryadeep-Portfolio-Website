@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
-import aboutPic1 from "../../public/images/profile/aboutPic1.webp"
+import aboutPic11 from "../../public/images/profile/aboutPic11.webp"
 import aboutPic2 from "../../public/images/profile/aboutPic2.webp"
 import Skills from '@/components/Skills'
 import { motion } from "framer-motion";
@@ -63,7 +63,7 @@ const about = () => {
 
 
                             <div className='col-span-3 w-[80%] relative rounded-2xl border-2 p-6 sm:p-2 ml-20 xl:ml-10 lg:ml-0 lg:w-full dark:gradient-background border-solid border-dark/30 bg-light dark:bg-primaryDark dark:border-primary justify-end'>
-                                <Image src={aboutPic1} quality={80} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl" />
+                                <Image src={aboutPic11} quality={80} alt="Aryadeep Gogoi" className="w-full h-full rounded-2xl" />
                             </div>
 
                         </div>
