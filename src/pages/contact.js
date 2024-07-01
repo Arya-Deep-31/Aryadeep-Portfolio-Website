@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import AnimatedText from '@/components/AnimatedText'
-import Layout from '@/components/Layout'
+import Head from 'next/head';
+import AnimatedText from '@/components/AnimatedText';
+import Layout from '@/components/Layout';
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import TransitionEffect from '@/components/TransitionEffect';

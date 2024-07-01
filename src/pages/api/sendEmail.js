@@ -14,7 +14,7 @@ const handler = async (req, res) => {
         });
 
         const mailOptions = {
-            from: email, // user's email address
+            from: email,
             to: process.env.RECEIVER_EMAIL,
             subject: `New message from ${name}`,
             text: message,
