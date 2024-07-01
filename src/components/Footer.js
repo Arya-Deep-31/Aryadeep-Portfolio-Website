@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className='p-4 -ml-10 md:ml-0'>
                     <div>
                         <div className='text-light font-bold pb-4 ml-12'>
-                            Aryadeep  Gogoi <span className='text-primary !text-medium'>is at </span>
+                            Aryadeep  Gogoi <span className='text-primary !text-medium'>is also at </span>
                         </div>
                         <div className='flex gap-5 text-light  p-2 sm:p-0'>
 
