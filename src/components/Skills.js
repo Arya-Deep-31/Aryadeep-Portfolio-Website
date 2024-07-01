@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import { HtmlIcon , LinkedInIcon ,CssIcon ,ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon, TailwindCssIcon , NodejsIcon, CanvaIcon, LeetcodeIcon, DribbbleIcon, FramerMotionIcon, NextJsIcon, MongoIcon, JavasccriptIcon, MsExcelIcon, MsWordIcon, PowerpointIcon, SasscssIcon, CIcon, NextjsICon, ArduinoIcon } from './Icons';
+import { HtmlIcon , LinkedInIcon ,CssIcon ,ScssIcon, FigmaIcon, ReactIcon, BootstrapIcon, VscodeIcon, PythonIcon, C2Icon, JavaIcon, GitIcon1, GitIcon2, IndesignIcon, AfterEffectsIcon, IllustratorIcon, TailwindCssIcon , NodejsIcon, CanvaIcon, LeetcodeIcon, DribbbleIcon, FramerMotionIcon, NextJsIcon, MongoIcon, JavasccriptIcon, MsExcelIcon, MsWordIcon, PowerpointIcon, SasscssIcon, CIcon, NextjsICon, ArduinoIcon, TensorFlowIcon , DockerIcon , PyTorchIcon , StrapiIcon  ,  OpenCVIcon} from './Icons';
 
 
 
@@ -12,7 +12,7 @@ const Skills = () => {
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 2 }} className='pb-10 '>
             <Layout className=''>
                 <AnimatedText text="Striving and Hustling" className='mb-2 mt-4 xs:!text-3xl' />
-                <AnimatedText text=" My Skills" className=' !text-3xl font-bold text-dark/70 md:!text-2xl sm:!text-xl mb-8' />
+                <AnimatedText text=" My Skills" className=' !text-3xl font-bold text-dark/70 md:!test-sm sm:!text-xl mb-8' />
             </Layout>
 
             <div className='grid grid-cols-4 gap-4 mb-10 sm:grid-cols-4 xs:grid-cols-3 sm:gap-5 xs:p-3 '>
@@ -24,8 +24,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <HtmlIcon/> </motion.div>
                     <div className=' absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ const Skills = () => {
                     <motion.div className=' gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <CssIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                            90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                            Loading
                             </p>
                         </div>
                     </div>
@@ -49,8 +49,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <SasscssIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <TailwindCssIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <BootstrapIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -83,8 +83,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'>  <JavasccriptIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <ReactIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -107,8 +107,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <MongoIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                70%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -120,8 +120,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <NodejsIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                70%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -135,8 +135,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <GitIcon2 /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -146,8 +146,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <NextjsICon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -161,8 +161,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <VscodeIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -178,8 +178,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <GitIcon1 /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -189,8 +189,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <C2Icon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -200,8 +200,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <JavaIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -212,8 +212,52 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <PythonIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <TensorFlowIcon/> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <DockerIcon/> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <PyTorchIcon/> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='group relative flex cursor-pointer'>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <StrapiIcon/> </motion.div>
+                    <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
+                        <div className='flex items-center justify-center h-full'>
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -228,8 +272,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <CIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -239,8 +283,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <ArduinoIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -252,8 +296,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <MsExcelIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -261,11 +305,11 @@ const Skills = () => {
 
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <MsWordIcon/> </motion.div>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <OpenCVIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -273,11 +317,11 @@ const Skills = () => {
 
 
                 <div className='group relative flex cursor-pointer'>
-                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <PowerpointIcon/> </motion.div>
+                    <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20 filter group-hover:grayscale transition duration-300 ease-in-out'> <CanvaIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20   rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -291,8 +335,8 @@ const Skills = () => {
                     <motion.div className=' gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <FigmaIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                90%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -304,8 +348,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <DribbbleIcon/> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                80%
+                            <p className='test-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
@@ -315,8 +359,8 @@ const Skills = () => {
                     <motion.div className='gradient-background rounded-full border-4 p-2 border-dark object-cover w-20 h-20  filter group-hover:grayscale transition duration-300 ease-in-out'> <AfterEffectsIcon /> </motion.div>
                     <div className='absolute opacity-0 group-hover:opacity-90 transition duration-300 ease-in-out group-hover:bg-primaryDark  w-20 h-20  rounded-full z-0'>
                         <div className='flex items-center justify-center h-full'>
-                            <p className='text-2xl font-bold text-light opacity-100'>
-                                70%
+                            <p className='text-sm font-bold text-light opacity-100'>
+                                Loading
                             </p>
                         </div>
                     </div>
