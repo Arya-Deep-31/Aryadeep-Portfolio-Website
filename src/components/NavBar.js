@@ -55,7 +55,7 @@ const NavBar = () => {
     const [mode, setMode] = useThemeSwitcher();
 
     return (
-        <header className='w-full px-32 py-5 z-50 fixed  font-semibold flex items-center text-lg justify-between dark:text-light relative'>
+        <header className='w-full px-32 py-5 z-50 fixed  font-semibold flex items-center text-lg justify-between dark:text-light relative '>
 
 
 
