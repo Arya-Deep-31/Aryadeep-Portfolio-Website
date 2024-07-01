@@ -16,7 +16,7 @@ import heart from "../../public/images/projects/heart.webp"
 import eco from "../../public/images/projects/eco.webp"
 import MRI from "../../public/images/projects/MRI.webp"
 import ecs from "../../public/images/projects/ecs.webp"
-import Vikriti from "../../public/images/projects/vikriti.webp"
+import Vikriti from "../../public/images/projects/Vikriti.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
 import TransitionEffect from '@/components/TransitionEffect'
