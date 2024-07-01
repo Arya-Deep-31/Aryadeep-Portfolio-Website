@@ -249,18 +249,28 @@ const Experience = () => {
                         position="Senior UI/UX Developer"
                         society="UC Technologies Private Limited"
                         companyLink=""
-                        time="August 2023-Present" address="Silchar ,Assam, India"
-                        work="As the General Secretary of the Electronics and Communication Society , my primary focus is on fostering a vibrant and enriching environment for students interested in the field of hustling . I lead a team of passionate individuals to organize technical workshops, seminars, and guest lectures, inviting industry experts and professors to share their knowledge and insights."
+                        time="August 2023-February 2024" address="Silchar ,Assam, India"
+                        work="During my six-month internship at UC Technologies, our team worked on Vyatha 1.0 , focusing on frontend development and UI/UX design. We collaborated to create engaging user experiences and innovative solutions, contributing to the project's success."
 
                     />
 
-                    
+                    <Details
+
+                        position="President"
+                        society="Electronics And Communication Society"
+                        societyLink="https://www.ecs.college/"
+                        time="May 2024-Present" address="Silchar ,Assam, India"
+                        work="As President of the Electronics and Communication Society , we focus on cultivating a dynamic environment for tech enthusiasts and the youngest members of our society. Our team will soon plan of workshops, seminars, and guest lectures with industry experts for cultivating the society culture"
+
+                    />
+
+
                     <Details
 
                         position="General Secretary"
                         society="Electronics And Communication Society"
                         societyLink="https://www.ecs.college/"
-                        time="June 2023-Present" address="Silchar ,Assam, India"
+                        time="June 2023-May 2024" address="Silchar ,Assam, India"
                         work="As the General Secretary of the Electronics and Communication Society , my primary focus is on fostering a vibrant and enriching environment for students interested in the field of hustling . I lead a team of passionate individuals to organize technical workshops, seminars, and guest lectures, inviting industry experts and professors to share their knowledge and insights."
 
                     />
@@ -283,9 +293,9 @@ const Experience = () => {
 
                         position="Secretary" society="SYMPHONITS | Music Club Of NITS"
                         societyLink="https://www.instagram.com/sympho.nits__/"
-                        time="June 2023 - Present" address="Silchar ,Assam, India"
+                        time="June 2023 - August 2024" address="Silchar ,Assam, India"
                         work="
-                        As the Moderator in the Music Club of NITS, my work revolves around creating a vibrant and inclusive musical community. We the team of moderators facilitate smooth operations during club meetings, rehearsals, and performances, ensuring a harmonious and supportive environment for our talented members.
+                        As the Secretary of the Music Club of NITS, my work revolves around creating a vibrant and inclusive musical community. We the team of moderators facilitate smooth operations during club meetings, rehearsals, and performances, ensuring a harmonious and supportive environment for our talented members.
                         
 
                         "
@@ -306,8 +316,8 @@ const Experience = () => {
 
                     <Details
 
-                        position="Former UI/UX Member"
-                        society="GDSC NIT Silchar"
+                        position="UI/UX Member"
+                        society="Google Developer Student CLubs NIT Silchar"
                         societyLink="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                         time="June 2022-June 2023" address="Silchar ,Assam, India"
                         work="It was a great journey to work on UI/UX Designs and be a part of this esteemed club which kept my UI/UX enthusiasm engaging with projects such as Guidance Grid along with fellow team members"
@@ -317,7 +327,7 @@ const Experience = () => {
 
                     <Details
 
-                        position="Former Content Associate" society="E-Cell , NITS"
+                        position="Former Junior Associate" society="E-Cell , NITS"
                         companyLink=""
                         time="June 2022-June 2023" address="Silchar ,Assam, India"
                         work="As the Content Associate in the E-Cell, my role was to generate compelling and informative content that promotes entrepreneurship and engages our target audience. We had different modules for which contents were created accordingly. By providing market insights, and fostering community engagement, we aimed to amplify the voice of entrepreneurship and cultivate a culture of innovation and entrepreneurship at our institution."
@@ -327,10 +337,10 @@ const Experience = () => {
 
                     <Details
 
-                        position="Junior Executive"
+                        position="Senior Executive"
                         society="NITS ECO CLUB"
                         companyLink=""
-                        time="June 2022-Present" address="Silchar ,Assam, India"
+                        time="June 2023-Present" address="Silchar ,Assam, India"
                         work="As a Junior Executive in NITS Eco Club, I am dedicated to making a positive impact on the environment and promoting sustainable practices within our community. I actively participated in organizing and implementing various eco-friendly initiatives, such as tree planting drives, recycling campaigns, etc"
 
 

@@ -14,6 +14,7 @@ import trinetra from "../../public/images/projects/trinetra.webp"
 import portfolio from "../../public/images/projects/portfolio.webp"
 import heart from "../../public/images/projects/heart.webp"
 import eco from "../../public/images/projects/eco.webp"
+import MRI from "../../public/images/projects/MRI.webp"
 import ecs from "../../public/images/projects/ecs.webp"
 import Vikriti from "../../public/images/projects/vikriti.webp"
 import { motion } from "framer-motion";
@@ -109,13 +110,13 @@ const projects = () => {
 
                                 <ProjectDetails
 
-                                    title=" Heart Disease Analysis"
-                                    type="Individual Project"
-                                    img={heart}
+                                    title=" Alzheimer Detection on MRI datasets"
+                                    type="Group Project"
+                                    img={MRI}
                                     summary="
-                                    In this machine learning project,I analyzed diverse patient data to build predictive models for early detection and diagnosis of human heart disease. Through feature selection and engineering, we identify critical risk factors and build accurate classifiers using logistic regression, decision trees, and neural networks. This project exemplifies machine learning's potential in healthcare, aiding preventive care and improving patient outcomes."
+                                    In this machine learning  , deep learning project we analyzed the ADNI dataset and the OASIS dataset MRI on different models preTrained and with some modifications . The dataset was processed through different data augmentation and transformation techniques . The dataset was also well visulaized using graphs , and Explainable AI , which forms a major part of the study"
                                     link="https://drive.google.com/file/d/1WTuX1-aB4uzUJVVbu-UvgYUWhH78NZaU/view?usp=sharing"
-                                    github="https://github.com/Arya-Deep-31/Heart-Disease-Analysis"
+                                    github="https://github.com/Arya-Deep-31/MRI-Processing-for-Alzheimer-Disease"
 
                                 />
                             </div>
@@ -162,7 +163,7 @@ const projects = () => {
                                     type="Team Project"
                                     img={project1}
                                     summary="Posua the spring fest of NITS , spreads out exuberance all around rejuvenating the land of culture. Posua is not just a fiesta but an emotional journey kalaediscope of colors and sound of Assam. It was an amazing expereince working with Seniors and the Team : Partha ,Himangshu , Jaydeep ,Pragya , Hrishikesh , Aditya , Jacinth and Maharnav . Happy Exploriing :)"
-                                    link="https://www.posua23.in/"
+                                    link="https://posua2023.netlify.app/"
                                     github="/"
 
                                 />
@@ -295,18 +296,7 @@ const projects = () => {
                                 />
                             </div>
 
-                            <div className='col-span-12'>
-                                <ProjectDetails
-
-                                    title="UI/UX | ECS WEBSITE2022"
-                                    type="Team Project"
-                                    img={ecs}
-                                    summary="A week over made project for the ECS Website of 2022 , this team project along with Jacinth Mahanta and Maharnav Deka uses gradient feature from top to bottom . This is another piece of work under my post as Junior Media and Graphics Design Member at ECS"
-                                    link="https://www.figma.com/file/pfXjOMgyrZIpumZ1mDqAg0/Ecs-website?type=design&node-id=0%3A1&mode=design&t=IwBPhPkFWT4Jb0hc-1"
-                                    github="/"
-
-                                />
-                            </div>
+                            
 
                         </div>
                     </Layout>
