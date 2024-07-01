@@ -15,7 +15,7 @@ const Contact = () => {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const res = await fetch('/api/contact', {
+            const res = await fetch('http://localhost:5000/send', { // Updated to match your backend endpoint
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
