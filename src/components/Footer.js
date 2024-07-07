@@ -17,7 +17,7 @@ const Footer = () => {
 
             </div>
             <footer className='bg-dark dark:bg-darker h-1/2 w-full flex flex-row justify-around items-start p-5 sm:text-base  md:flex-col md:items-center justify-between sm:items-center justify-between '>
-                <div className='p-4 -ml-10 md:ml-0'>
+                <div className='p-4 -ml-11 md:ml-0'>
                     <div>
                         <div className='text-light font-bold pb-4 ml-12'>
                             Aryadeep  Gogoi <span className='text-primary !text-medium'>is also at </span>
