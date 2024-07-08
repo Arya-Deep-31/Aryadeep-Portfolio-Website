@@ -316,7 +316,7 @@ const Experience = () => {
 
                     <Details
 
-                        position="UI/UX Member"
+                        position="Member"
                         society="Google Developer Student CLubs NIT Silchar"
                         societyLink="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                         time="June 2022-June 2023" address="Silchar ,Assam, India"
