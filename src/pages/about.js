@@ -55,7 +55,7 @@ const about = () => {
 
                                 </p>
 
-                                <p className='sm:text-base sm:p-2 pb-6'>Feel free to explore my Portfolio Project where I tried to assemble a part of me . Do delve into the projects I've worked on . Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
+                                <p className='sm:text-base sm:p-2 pb-6'>Feel free to explore my Portfolio Project where I tried to assemble a part of me  Also expecting a feedback from you all. Let's embark on a journey of innovation and creativity, constantly inspiring and motivating each other.
                                 </p>
                                 <p className='sm:text-base sm:p-2 pb-2'> Stay inspired, and let's create something remarkable together!</p>
 

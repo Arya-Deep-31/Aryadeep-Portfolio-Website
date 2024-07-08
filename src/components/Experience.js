@@ -246,8 +246,8 @@ const Experience = () => {
 
                     <Details
 
-                        position="Senior UI/UX Developer"
-                        society="UC Technologies Private Limited"
+                        position="Developer"
+                        society="UC Technologies"
                         companyLink=""
                         time="August 2023-February 2024" address="Silchar ,Assam, India"
                         work="During my six-month internship at UC Technologies, our team worked on Vyatha 1.0 , focusing on frontend development and UI/UX design. We collaborated to create engaging user experiences and innovative solutions, contributing to the project's success."
