@@ -71,7 +71,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className='pt-6 text-light -ml-10 lg:ml-0 md:-ml-8'>
+                <div className='pt-6 text-light -ml-12 lg:-ml-10 md:-ml-8'>
                     <div>
                         <div className='text-light font-bold pb-2 flex flex-col items-center justify-center lg:-ml-8 sm:ml-8  '>
                             <motion.a whileHover={{ color: 'violet' }}
