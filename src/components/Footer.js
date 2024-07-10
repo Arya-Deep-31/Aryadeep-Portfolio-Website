@@ -3,11 +3,7 @@ import { FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon , Mo
 import { motion } from "framer-motion";
 
 
-
-
 const Footer = () => {
-
-
 
 
     return (
