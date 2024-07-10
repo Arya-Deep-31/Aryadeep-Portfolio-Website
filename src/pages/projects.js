@@ -17,6 +17,7 @@ import eco from "../../public/images/projects/eco.webp"
 import MRI from "../../public/images/projects/MRI.webp"
 import ecs from "../../public/images/projects/ecs.webp"
 import Vikriti from "../../public/images/projects/Vikriti.webp"
+import eeg from "../../public/images/projects/eeg.webp"
 import { motion } from "framer-motion";
 import { GithubIcon } from '@/components/Icons'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -115,16 +116,31 @@ const projects = () => {
                                     img={MRI}
                                     summary="
                                     In this machine learning  , deep learning project we analyzed the ADNI dataset and the OASIS dataset MRI on different models preTrained and with some modifications . The dataset was processed through different data augmentation and transformation techniques . The dataset was also well visulaized using graphs , and Explainable AI , which forms a major part of the study"
-                                    link="https://drive.google.com/file/d/1WTuX1-aB4uzUJVVbu-UvgYUWhH78NZaU/view?usp=sharing"
-                                    github="https://github.com/Arya-Deep-31/MRI-Processing-for-Alzheimer-Disease"
+                                    link="/"
+                                    github="/"
 
                                 />
                             </div>
 
 
 
+                            
                             <div className='col-span-12'>
                                 <ProjectDetails2
+
+                                    title="Alzheimer Detection on EEG datasets"
+                                    type="Group Project"
+                                    img={eeg}
+                                    summary="In this machine learning  , deep learning project we analyzed the EEG dataset on different models and with some modifications . The dataset was processed through different data augmentation and transformation techniques . The dataset was also well visulaized using graphs , which forms a major part of the study"
+                                    link="/"
+                                    github="/"
+
+                                />
+                            </div>
+                            
+                            
+                            <div className='col-span-12'>
+                                <ProjectDetails
 
                                     title="Vikriti 1.0"
                                     type="Individual Project"
@@ -141,7 +157,7 @@ const projects = () => {
 
                             <div className='col-span-12  '>
 
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title=" Heart Disease Analysis"
                                     type="Individual Project"
@@ -157,7 +173,7 @@ const projects = () => {
 
 
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="Posua 2023 Website"
                                     type="Team Project"
@@ -169,7 +185,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="CardioCare"
                                     type="Team Project"
@@ -181,7 +197,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="My Personal Portfolio"
                                     type="Individual Project"
@@ -194,7 +210,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="ECO CLUB WEBSITE"
                                     type="Team Project"
@@ -210,7 +226,7 @@ const projects = () => {
 
 
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
@@ -222,7 +238,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | POSUA 2023"
                                     type="Team Project"
@@ -235,7 +251,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | AgriShare"
                                     type="Individual Project"
@@ -247,7 +263,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
@@ -260,7 +276,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
@@ -272,7 +288,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | TrinetraGeeks"
                                     type="Individual Project"
@@ -284,7 +300,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
