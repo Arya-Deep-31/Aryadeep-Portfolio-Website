@@ -13,6 +13,7 @@ import posuaui from "../../public/images/projects/posua.webp"
 import trinetra from "../../public/images/projects/trinetra.webp"
 import portfolio from "../../public/images/projects/portfolio.webp"
 import heart from "../../public/images/projects/heart.webp"
+import data1 from "../../public/images/projects/data1.webp"
 import eco from "../../public/images/projects/eco.webp"
 import MRI from "../../public/images/projects/MRI.webp"
 import ecs from "../../public/images/projects/ecs.webp"
@@ -184,6 +185,7 @@ const projects = () => {
 
                                 />
                             </div>
+
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
@@ -196,6 +198,7 @@ const projects = () => {
 
                                 />
                             </div>
+
                             <div className='col-span-12'>
                                 <ProjectDetails
 
@@ -212,6 +215,19 @@ const projects = () => {
                             <div className='col-span-12'>
                                 <ProjectDetails2
 
+                                    title="Heart Attack Analysis"
+                                    type="Individual Project"
+                                    img={data1}
+                                    summary="Whether it's evoking emotions or simply the provoking thought of who I am .. Yes many don't know me so here's a testament to some passions of my life. The tech stacks used in this project are Next JS , Tailwind CSS , EmailJS, Figma and Framer Motion. Immerse yourself in the captivating visuals, delve into the narratives behind each piece, and let your imagination soar through the different stages of me .    Happy Exploring :)"
+                                    link="https://aryadeep-portfolio-website.vercel.app/"
+                                    github="/"
+
+                                />
+                            </div>
+
+                            <div className='col-span-12'>
+                                <ProjectDetails
+
                                     title="ECO CLUB WEBSITE"
                                     type="Team Project"
                                     img={eco}
@@ -226,7 +242,7 @@ const projects = () => {
 
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | GUIDANCE GRID "
                                     type="Team Project"
@@ -238,7 +254,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | POSUA 2023"
                                     type="Team Project"
@@ -251,7 +267,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | AgriShare"
                                     type="Individual Project"
@@ -263,7 +279,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | Me-Eat App"
                                     type="Individual Project"
@@ -276,7 +292,7 @@ const projects = () => {
                             </div>
 
                             <div className='col-span-12'>
-                                <ProjectDetails
+                                <ProjectDetails2
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
@@ -288,7 +304,7 @@ const projects = () => {
                                 />
                             </div>
                             <div className='col-span-12'>
-                                <ProjectDetails2
+                                <ProjectDetails
 
                                     title="UI/UX | TrinetraGeeks"
                                     type="Individual Project"
@@ -299,8 +315,8 @@ const projects = () => {
 
                                 />
                             </div>
-                            <div className='col-span-12'>
-                                <ProjectDetails
+                            {/* <div className='col-span-12'>
+                                <ProjectDetails2
 
                                     title="UI/UX | ECS WEBSITE2022"
                                     type="Team Project"
@@ -310,7 +326,7 @@ const projects = () => {
                                     github="/"
 
                                 />
-                            </div>
+                            </div> */}
 
                             
 
