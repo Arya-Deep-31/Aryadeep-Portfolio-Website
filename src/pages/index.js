@@ -107,7 +107,7 @@ export default function Home() {
 
 
                   <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} className='mr-2'>
-                    <a href="https://drive.google.com/file/d/1GoplubycWKnSIE5A7yYkr-UDc8Fd7V8q/view?usp=sharing" title="Dummy Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' target='_blank'> My Resume  </a>
+                    <a href="https://drive.google.com/file/d/1btxk4rcozjdXOzT11LpRt1VKTJ9JaS1K/view?usp=sharing" title="Dummy Resume" className='rounded-lg bg-dark text-light p-1 px-4 text-lg dark:bg-primaryDark dark:text-white xl:text-base lg:text-lg sm:text-base' target='_blank'> My Resume  </a>
 
 
                   </motion.div>
