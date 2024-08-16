@@ -82,6 +82,16 @@ const Experience = () => {
 
                     <Details
 
+                        position="General Secretary Cultural"
+                        society="GYMKHANA UNION BODY , NIT SILCHAR"
+                        societyLink="https://www.ecs.college/"
+                        time="August 2024-Present" address="Silchar ,Assam, India"
+                        work="As General Secretary Cultural , I with constant collaboration of different college cultural clubs seek to develop and prosper cultural identity of all forms . In major we are looking for good plans for Incandescence 2025"
+
+                    />
+
+                    <Details
+
                         position="President"
                         society="Electronics And Communication Society"
                         societyLink="https://www.ecs.college/"
