@@ -193,7 +193,7 @@ const projects = () => {
                                     type="Team Project"
                                     img={cardio}
                                     summary="Submitted for GDSC Solution Challenge 2023 CardioCare is a Progressive Web App which is targetted on the Health UN Goal.The project is still under construction with my team mates Partha Pratim Deka and Pragya Annesha Baruah. Techstacks include : Arduino ,Firebase , React , SCSS , Figma ,etc .Happy Caring :)"
-                                    link="https://cardio-care.netlify.app/"
+                                    link="https://cardio-care-pwa.onrender.com/"
                                     github="/"
 
                                 />
